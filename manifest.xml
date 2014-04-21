@@ -1,0 +1,25 @@
+<package>
+  <description brief="autobot">
+
+     autobot
+
+  </description>
+  <author>penghou</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/autobot</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="kdl"/>
+  <depend package="tf"/>
+  <depend package="roslib"/>
+
+  <rosdep name="libopenni-dev"/>
+  <rosdep name="libusb-1.0-dev"/>
+  <rosdep name="libopenni-nite-dev"/>
+  <rosdep name="libopenni-sensor-primesense-dev"/>
+</package>
+
+

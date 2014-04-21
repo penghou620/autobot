@@ -1,0 +1,4200 @@
+theta:-0.013294
+head x 27.203123
+head y 27.203125
+head z 2046.136597
+Move Straight
+velocity A10 B10
+theta:-0.015178
+head x 30.982170
+head y 37.837021
+head z 2041.085205
+Move Straight
+velocity A10 B10
+theta:-0.017191
+head x 35.048431
+head y 41.144821
+head z 2038.615234
+Move Straight
+velocity A10 B10
+theta:-0.020850
+head x 42.476181
+head y 43.374222
+head z 2036.885498
+Move Straight
+velocity A10 B10
+theta:-0.024757
+head x 50.415710
+head y 46.360229
+head z 2036.021362
+Move Straight
+velocity A10 B10
+theta:-0.028562
+head x 58.013107
+head y 42.330017
+head z 2030.582397
+Move Straight
+velocity A10 B10
+theta:-0.033414
+head x 67.983688
+head y 38.703262
+head z 2033.859741
+Move Straight
+velocity A10 B10
+theta:-0.039796
+head x 80.828468
+head y 40.472763
+head z 2030.000366
+Move Straight
+velocity A10 B10
+theta:-0.045651
+head x 92.441887
+head y 39.643265
+head z 2023.567139
+Move Straight
+velocity A10 B10
+theta:-0.052722
+head x 106.773445
+head y 36.731476
+head z 2023.345825
+Turn
+tmp A08B06
+theta:-0.060181
+head x 121.996964
+head y 40.637268
+head z 2024.733765
+Turn
+tmp A08B06
+theta:-0.066673
+head x 135.275192
+head y 40.748276
+head z 2025.921875
+Turn
+tmp A08B06
+theta:-0.073300
+head x 148.297562
+head y 36.773239
+head z 2019.529419
+Turn
+tmp A08B06
+theta:-0.082338
+head x 166.438705
+head y 40.063324
+head z 2016.833618
+Turn
+tmp A08B06
+theta:-0.089510
+head x 180.843994
+head y 39.174942
+head z 2014.978638
+Turn
+tmp A08B06
+theta:-0.097823
+head x 197.601608
+head y 36.481949
+head z 2013.550049
+Turn
+tmp A08B06
+theta:-0.105219
+head x 212.573685
+head y 37.688629
+head z 2012.838379
+Turn
+tmp A08B06
+theta:-0.111227
+head x 224.825714
+head y 36.787079
+head z 2012.978882
+Turn
+tmp A08B06
+theta:-0.117673
+head x 238.039474
+head y 36.460907
+head z 2013.551147
+Turn
+tmp A08B06
+theta:-0.123489
+head x 249.338684
+head y 39.351959
+head z 2008.840698
+Turn
+tmp A08B06
+theta:-0.129014
+head x 260.246765
+head y 37.545990
+head z 2005.988770
+Turn
+tmp A08B06
+theta:-0.135537
+head x 273.981873
+head y 36.127716
+head z 2009.065918
+Turn
+tmp A08B06
+theta:-0.140185
+head x 283.223206
+head y 35.051300
+head z 2007.103271
+Turn
+tmp A08B06
+theta:-0.144574
+head x 292.069397
+head y 34.796097
+head z 2006.117188
+Turn
+tmp A08B06
+theta:-0.148492
+head x 299.878815
+head y 36.754868
+head z 2004.625977
+Turn
+tmp A08B06
+theta:-0.151360
+head x 306.484650
+head y 26.537170
+head z 2009.381348
+Turn
+tmp A09B05
+theta:-0.153295
+head x 310.831818
+head y 22.096085
+head z 2011.756958
+Turn
+tmp A09B05
+theta:-0.156291
+head x 317.272095
+head y 28.176285
+head z 2013.447632
+Turn
+tmp A09B05
+theta:-0.158097
+head x 320.894104
+head y 34.119781
+head z 2012.791748
+Turn
+tmp A09B05
+theta:-0.160078
+head x 325.253876
+head y 35.693054
+head z 2014.463501
+Turn
+tmp A09B05
+theta:-0.161161
+head x 327.385040
+head y 34.638687
+head z 2013.798096
+Turn
+tmp A09B05
+theta:-0.161743
+head x 330.248474
+head y 24.703064
+head z 2023.968262
+Turn
+tmp A09B05
+theta:-0.161779
+head x 329.601044
+head y 30.122177
+head z 2019.550659
+Turn
+tmp A09B05
+theta:-0.161993
+head x 330.419952
+head y 31.173172
+head z 2021.842651
+Turn
+tmp A09B05
+theta:-0.160927
+head x 329.935211
+head y 29.124313
+head z 2032.485596
+Turn
+tmp A09B05
+theta:-0.160864
+head x 330.018982
+head y 28.602478
+head z 2033.811401
+Turn
+tmp A09B05
+theta:-0.159615
+head x 328.645203
+head y 17.318146
+head z 2041.475342
+Turn
+tmp A09B05
+theta:-0.157253
+head x 324.229156
+head y 15.785400
+head z 2044.809570
+Turn
+tmp A09B05
+theta:-0.156590
+head x 323.101776
+head y 17.101349
+head z 2046.474976
+Turn
+tmp A09B05
+theta:-0.154575
+head x 318.149994
+head y 18.830170
+head z 2041.799072
+Turn
+tmp A09B05
+theta:-0.153146
+head x 314.802124
+head y 25.826813
+head z 2039.472168
+Turn
+tmp A09B05
+theta:-0.152590
+head x 312.538788
+head y 28.782761
+head z 2032.303101
+Turn
+tmp A09B05
+theta:-0.152525
+head x 312.697388
+head y 20.656937
+head z 2034.216797
+Turn
+tmp A09B05
+theta:-0.152312
+head x 312.477203
+head y 24.608322
+head z 2035.673218
+Turn
+tmp A09B05
+theta:-0.152466
+head x 312.064911
+head y 29.345276
+head z 2030.904785
+Turn
+tmp A09B05
+theta:-0.152244
+head x 312.005188
+head y 28.322174
+head z 2033.520020
+Turn
+tmp A09B05
+theta:-0.153271
+head x 313.496216
+head y 32.141708
+head z 2029.330566
+Turn
+tmp A09B05
+theta:-0.154981
+head x 317.034637
+head y 32.106812
+head z 2029.232178
+Turn
+tmp A09B05
+theta:-0.155171
+head x 318.125549
+head y 31.980194
+head z 2033.685669
+Turn
+tmp A09B05
+theta:-0.157237
+head x 321.753906
+head y 33.464218
+head z 2029.410278
+Turn
+tmp A09B05
+theta:-0.159770
+head x 325.715210
+head y 35.821945
+head z 2021.273560
+Turn
+tmp A09B05
+theta:-0.161421
+head x 329.371826
+head y 32.956177
+head z 2022.703735
+Turn
+tmp A09B05
+theta:-0.165214
+head x 336.455902
+head y 30.484955
+head z 2017.918945
+Turn
+tmp A09B05
+theta:-0.168169
+head x 341.332245
+head y 33.227661
+head z 2010.525879
+Turn
+tmp A09B05
+theta:-0.171480
+head x 348.412598
+head y 32.261703
+head z 2011.847168
+Turn
+tmp A09B05
+theta:-0.174568
+head x 355.108643
+head y 31.577103
+head z 2013.509399
+Turn
+tmp A09B05
+theta:-0.179026
+head x 364.253845
+head y 30.834610
+head z 2012.854736
+Turn
+tmp A09B05
+theta:-0.182895
+head x 371.401459
+head y 31.154999
+head z 2007.990601
+Turn
+tmp A09B05
+theta:-0.187453
+head x 380.601379
+head y 29.483215
+head z 2006.550171
+Turn
+tmp A09B05
+theta:-0.191636
+head x 388.098602
+head y 29.457321
+head z 2000.338989
+Turn
+tmp A09B05
+theta:-0.197467
+head x 398.396393
+head y 29.348175
+head z 1991.242432
+Turn
+tmp A09B05
+theta:-0.203809
+head x 409.781525
+head y 27.749695
+head z 1982.703369
+Turn
+tmp A09B05
+theta:-0.207658
+head x 415.475281
+head y 30.979324
+head z 1971.925293
+Turn
+tmp A09B05
+theta:-0.211426
+head x 421.975708
+head y 24.796036
+head z 1966.031494
+Turn
+tmp A09B05
+theta:-0.215047
+head x 427.911255
+head y 23.625290
+head z 1959.084473
+Turn
+tmp A09B05
+theta:-0.219132
+head x 434.640076
+head y 20.079437
+head z 1951.613892
+Turn
+tmp A09B05
+theta:-0.223348
+head x 441.411682
+head y 16.361343
+head z 1943.371582
+Turn
+tmp A09B05
+theta:-0.227039
+head x 446.393921
+head y 15.822433
+head z 1932.254761
+Turn
+tmp A09B05
+theta:-0.229659
+head x 450.547302
+head y 13.030304
+head z 1927.197510
+Turn
+tmp A09B05
+theta:-0.232941
+head x 455.317871
+head y 17.394547
+head z 1919.166260
+Turn
+tmp A09B05
+theta:-0.234997
+head x 457.569489
+head y 14.859680
+head z 1911.150757
+Turn
+tmp A09B05
+theta:-0.236271
+head x 457.854553
+head y 13.829803
+head z 1901.642090
+Turn
+tmp A09B05
+theta:-0.237334
+head x 458.964844
+head y 13.243210
+head z 1897.385986
+Turn
+tmp A09B05
+theta:-0.238555
+head x 459.805603
+head y 12.684692
+head z 1890.760620
+Turn
+tmp A09B05
+theta:-0.239140
+head x 458.826813
+head y 14.010391
+head z 1881.942749
+Turn
+tmp A09B05
+theta:-0.238886
+head x 456.395630
+head y 10.985489
+head z 1874.038330
+Turn
+tmp A09B05
+theta:-0.238682
+head x 453.811890
+head y 9.766754
+head z 1865.084839
+Turn
+tmp A09B05
+theta:-0.239729
+head x 454.666779
+head y 14.263000
+head z 1860.113037
+Turn
+tmp A09B05
+theta:-0.239479
+head x 452.836975
+head y 14.991745
+head z 1854.635376
+Turn
+tmp A09B05
+theta:-0.237231
+head x 447.634399
+head y 9.079132
+head z 1851.384888
+Turn
+tmp A09B05
+theta:-0.235705
+head x 443.535919
+head y 6.940842
+head z 1846.765503
+Turn
+tmp A09B05
+theta:-0.234573
+head x 438.261810
+head y 4.477188
+head z 1833.947632
+Turn
+tmp A09B05
+theta:-0.232630
+head x 431.915070
+head y 7.926147
+head z 1823.046021
+Turn
+tmp A09B05
+theta:-0.230230
+head x 425.548584
+head y 9.754349
+head z 1815.590332
+Turn
+tmp A09B05
+theta:-0.226303
+head x 416.599670
+head y 5.570679
+head z 1809.355713
+Turn
+tmp A09B05
+theta:-0.224172
+head x 410.577271
+head y 6.340118
+head z 1800.745361
+Turn
+tmp A09B05
+theta:-0.221165
+head x 403.355896
+head y 4.987122
+head z 1793.948730
+Turn
+tmp A09B05
+theta:-0.218446
+head x 396.481323
+head y 9.186615
+head z 1786.043945
+Turn
+tmp A09B05
+theta:-0.215549
+head x 389.204865
+head y 10.396790
+head z 1777.591553
+Turn
+tmp A09B05
+theta:-0.212435
+head x 382.387726
+head y 7.380569
+head z 1772.866577
+Turn
+tmp A09B05
+theta:-0.209062
+head x 375.102142
+head y 1.487106
+head z 1768.001221
+Turn
+tmp A09B05
+theta:-0.207117
+head x 369.949371
+head y 2.522949
+head z 1760.567505
+Turn
+tmp A09B05
+theta:-0.205301
+head x 365.212311
+head y 3.429535
+head z 1753.851074
+Turn
+tmp A09B05
+theta:-0.202706
+head x 359.673370
+head y 2.371887
+head z 1749.992310
+Turn
+tmp A09B05
+theta:-0.200738
+head x 355.693146
+head y 3.363235
+head z 1748.062988
+Turn
+tmp A09B05
+theta:-0.199862
+head x 353.093597
+head y 0.818787
+head z 1743.097778
+Turn
+tmp A09B05
+theta:-0.198713
+head x 349.804749
+head y -1.330460
+head z 1737.117310
+Turn
+tmp A09B05
+theta:-0.197708
+head x 347.288086
+head y -1.575439
+head z 1733.626465
+Turn
+tmp A09B05
+theta:-0.197754
+head x 346.521362
+head y -4.262848
+head z 1729.385376
+Turn
+tmp A09B05
+theta:-0.197183
+head x 344.871338
+head y -4.633301
+head z 1726.264282
+Turn
+tmp A09B05
+theta:-0.197731
+head x 344.740509
+head y -3.401123
+head z 1720.697876
+Turn
+tmp A09B05
+theta:-0.197950
+head x 344.474976
+head y -5.248077
+head z 1717.420288
+Turn
+tmp A09B05
+theta:-0.197950
+head x 343.342316
+head y -4.875809
+head z 1711.780029
+Turn
+tmp A09B05
+theta:-0.199939
+head x 345.807770
+head y -6.891678
+head z 1706.461182
+Turn
+tmp A09B05
+theta:-0.200305
+head x 345.107178
+head y -9.646500
+head z 1699.801147
+Turn
+tmp A09B05
+theta:-0.202135
+head x 347.460175
+head y -10.060760
+head z 1695.474731
+Turn
+tmp A09B05
+theta:-0.204391
+head x 350.274475
+head y -8.110123
+head z 1689.814087
+Turn
+tmp A09B05
+theta:-0.206239
+head x 352.417908
+head y -11.350204
+head z 1684.490234
+Turn
+tmp A09B05
+theta:-0.208760
+head x 354.592560
+head y -12.865631
+head z 1673.816040
+Turn
+tmp A09B05
+theta:-0.208858
+head x 353.633514
+head y -18.044983
+head z 1668.489136
+Turn
+tmp A09B05
+theta:-0.211850
+head x 357.527252
+head y -16.106918
+head z 1662.322388
+Turn
+tmp A09B05
+theta:-0.213366
+head x 359.387054
+head y -18.183899
+head z 1658.732788
+Turn
+tmp A09B05
+theta:-0.217910
+head x 364.453339
+head y -19.200531
+head z 1645.936646
+Turn
+tmp A09B05
+theta:-0.220404
+head x 367.440338
+head y -19.039017
+head z 1640.041626
+Turn
+tmp A09B05
+theta:-0.222361
+head x 369.355988
+head y -22.871368
+head z 1633.595459
+Turn
+tmp A09B05
+theta:-0.225375
+head x 372.303894
+head y -23.517410
+head z 1623.867310
+Turn
+tmp A09B05
+theta:-0.227949
+head x 374.998596
+head y -24.090866
+head z 1616.503174
+Turn
+tmp A09B05
+theta:-0.228954
+head x 374.920654
+head y -24.556198
+head z 1608.822876
+Turn
+tmp A09B05
+theta:-0.232823
+head x 380.460205
+head y -24.157471
+head z 1604.481812
+Turn
+tmp A09B05
+theta:-0.234735
+head x 382.463348
+head y -24.709991
+head z 1599.307861
+Turn
+tmp A09B05
+theta:-0.237497
+head x 385.180084
+head y -27.857483
+head z 1591.225464
+Turn
+tmp A09B05
+theta:-0.239835
+head x 387.886932
+head y -32.436935
+head z 1586.178711
+Turn
+tmp A09B05
+theta:-0.242074
+head x 390.661499
+head y -35.893921
+head z 1582.163818
+Turn
+tmp A09B05
+theta:-0.242552
+head x 389.852325
+head y -37.365753
+head z 1575.649902
+Turn
+tmp A09B05
+theta:-0.244498
+head x 390.674744
+head y -35.610672
+head z 1565.897583
+Turn
+tmp A09B05
+theta:-0.245874
+head x 390.987061
+head y -37.180344
+head z 1558.019409
+Turn
+tmp A09B05
+theta:-0.247483
+head x 392.783478
+head y -38.370193
+head z 1554.580566
+Turn
+tmp A09B05
+theta:-0.249347
+head x 393.011597
+head y -39.437027
+head z 1543.360474
+Turn
+tmp A09B05
+theta:-0.250603
+head x 392.743988
+head y -41.388184
+head z 1534.248657
+Turn
+tmp AaB4
+theta:-0.251858
+head x 393.237671
+head y -40.768250
+head z 1528.195923
+Turn
+tmp AaB4
+theta:-0.253644
+head x 394.067993
+head y -37.223969
+head z 1520.167603
+Turn
+tmp AaB4
+theta:-0.255385
+head x 395.584625
+head y -36.433334
+head z 1515.150269
+Turn
+tmp AaB4
+theta:-0.258123
+head x 397.511719
+head y -37.034698
+head z 1505.651123
+Turn
+tmp AaB4
+theta:-0.261432
+head x 400.636749
+head y -35.058701
+head z 1497.398071
+in the 1.5m
+velocity A00 B00
+theta:-0.263003
+head x 401.518188
+head y -35.731720
+head z 1491.305054
+in the 1.5m
+velocity A00 B00
+theta:-0.265200
+head x 403.521667
+head y -39.865616
+head z 1485.734619
+in the 1.5m
+velocity A00 B00
+theta:-0.267803
+head x 405.127686
+head y -40.764954
+head z 1476.444214
+in the 1.5m
+velocity A00 B00
+theta:-0.269424
+head x 405.451599
+head y -39.701508
+head z 1468.295410
+in the 1.5m
+velocity A00 B00
+theta:-0.271732
+head x 407.408752
+head y -39.450562
+head z 1462.218384
+in the 1.5m
+velocity A00 B00
+theta:-0.272388
+head x 406.198486
+head y -42.195007
+head z 1454.184814
+in the 1.5m
+velocity A00 B00
+theta:-0.274451
+head x 407.880035
+head y -42.827972
+head z 1448.661255
+in the 1.5m
+velocity A00 B00
+theta:-0.279745
+head x 414.226074
+head y -42.246368
+head z 1441.898193
+in the 1.5m
+velocity A00 B00
+theta:-0.279205
+head x 412.559357
+head y -46.855682
+head z 1439.024048
+in the 1.5m
+velocity A00 B00
+theta:-0.280871
+head x 413.874390
+head y -46.499207
+head z 1434.585083
+in the 1.5m
+velocity A00 B00
+theta:-0.284236
+head x 416.853729
+head y -44.907730
+head z 1426.867676
+in the 1.5m
+velocity A00 B00
+theta:-0.285570
+head x 417.932068
+head y -51.837509
+head z 1423.500000
+in the 1.5m
+velocity A00 B00
+theta:-0.292198
+head x 425.739105
+head y -46.766449
+head z 1415.317017
+in the 1.5m
+velocity A00 B00
+theta:-0.294142
+head x 427.806244
+head y -47.142426
+head z 1412.231689
+in the 1.5m
+velocity A00 B00
+theta:-0.293990
+head x 425.741364
+head y -52.340866
+head z 1406.187866
+in the 1.5m
+velocity A00 B00
+theta:-0.290954
+head x 421.682922
+head y -69.353775
+head z 1408.183105
+in the 1.5m
+velocity A00 B00
+theta:-0.292795
+head x 423.149475
+head y -59.277039
+head z 1403.671265
+in the 1.5m
+velocity A00 B00
+theta:-0.295899
+head x 427.519745
+head y -52.299210
+head z 1402.401733
+in the 1.5m
+velocity A00 B00
+theta:-0.295405
+head x 426.570038
+head y -48.435654
+head z 1401.768555
+in the 1.5m
+velocity A00 B00
+theta:-0.295458
+head x 426.402954
+head y -47.356934
+head z 1400.953247
+in the 1.5m
+velocity A00 B00
+theta:-0.293666
+head x 423.538483
+head y -45.932159
+head z 1400.546997
+in the 1.5m
+velocity A00 B00
+theta:-0.292587
+head x 421.829346
+head y -45.559464
+head z 1400.345093
+in the 1.5m
+velocity A00 B00
+theta:-0.291580
+head x 420.111115
+head y -47.627472
+head z 1399.741699
+in the 1.5m
+velocity A00 B00
+theta:-0.288861
+head x 416.320404
+head y -47.032211
+head z 1400.936523
+in the 1.5m
+velocity A00 B00
+theta:-0.287974
+head x 414.404968
+head y -44.789261
+head z 1399.036743
+in the 1.5m
+velocity A00 B00
+theta:-0.286629
+head x 412.521210
+head y -52.434891
+head z 1399.586792
+in the 1.5m
+velocity A00 B00
+theta:-0.287668
+head x 414.036530
+head y -54.001587
+head z 1399.361084
+in the 1.5m
+velocity A00 B00
+theta:-0.289934
+head x 417.454346
+head y -46.852356
+head z 1399.252075
+in the 1.5m
+velocity A00 B00
+theta:-0.290320
+head x 418.175507
+head y -40.726257
+head z 1399.695190
+in the 1.5m
+velocity A00 B00
+theta:-0.288928
+head x 415.972778
+head y -46.484344
+head z 1399.423584
+in the 1.5m
+velocity A00 B00
+theta:-0.289150
+head x 416.263977
+head y -44.647720
+head z 1399.264771
+in the 1.5m
+velocity A00 B00
+theta:-0.287091
+head x 413.405029
+head y -45.950500
+head z 1400.199219
+in the 1.5m
+velocity A00 B00
+theta:-0.286660
+head x 412.740906
+head y -46.576096
+head z 1400.169678
+in the 1.5m
+velocity A00 B00
+theta:-0.284948
+head x 410.863831
+head y -44.787628
+head z 1402.653564
+in the 1.5m
+velocity A00 B00
+theta:-0.283784
+head x 409.454956
+head y -41.894348
+head z 1403.897583
+in the 1.5m
+velocity A00 B00
+theta:-0.282338
+head x 408.302002
+head y -39.990845
+head z 1407.511841
+in the 1.5m
+velocity A00 B00
+theta:-0.278962
+head x 405.247925
+head y -39.302536
+head z 1414.821533
+in the 1.5m
+velocity A00 B00
+theta:-0.277585
+head x 403.753845
+head y -36.040375
+head z 1416.972656
+in the 1.5m
+velocity A00 B00
+theta:-0.274855
+head x 401.571625
+head y -36.907211
+head z 1424.053223
+in the 1.5m
+velocity A00 B00
+theta:-0.272442
+head x 399.551910
+head y -36.343964
+head z 1430.091675
+in the 1.5m
+velocity A00 B00
+theta:-0.271272
+head x 398.311371
+head y -34.826279
+head z 1432.112671
+in the 1.5m
+velocity A00 B00
+theta:-0.268706
+head x 395.595551
+head y -34.977020
+head z 1436.620972
+in the 1.5m
+velocity A00 B00
+theta:-0.264957
+head x 391.096497
+head y -35.199585
+head z 1441.371338
+in the 1.5m
+velocity A00 B00
+theta:-0.260022
+head x 385.433624
+head y -34.947342
+head z 1448.755493
+in the 1.5m
+velocity A00 B00
+theta:-0.255136
+head x 379.874512
+head y -35.923203
+head z 1456.459839
+in the 1.5m
+velocity A00 B00
+theta:-0.248514
+head x 371.703400
+head y -35.343811
+head z 1464.788086
+in the 1.5m
+velocity A00 B00
+theta:-0.242941
+head x 364.931519
+head y -34.981400
+head z 1472.471069
+in the 1.5m
+velocity A00 B00
+theta:-0.235014
+head x 354.082428
+head y -35.480087
+head z 1478.803223
+in the 1.5m
+velocity A00 B00
+theta:-0.228402
+head x 345.077606
+head y -34.376938
+head z 1484.470337
+in the 1.5m
+velocity A00 B00
+theta:-0.220657
+head x 334.959839
+head y -33.812134
+head z 1493.296265
+in the 1.5m
+velocity A00 B00
+theta:-0.213180
+head x 324.748718
+head y -34.127426
+head z 1500.209595
+Turn
+tmp A09B05
+theta:-0.204135
+head x 312.529419
+head y -36.661255
+head z 1509.671143
+Turn
+tmp A09B05
+theta:-0.195618
+head x 300.079498
+head y -36.150391
+head z 1514.389526
+Turn
+tmp A09B05
+theta:-0.187433
+head x 288.805145
+head y -37.147049
+head z 1522.755981
+Turn
+tmp A09B05
+theta:-0.180325
+head x 278.644409
+head y -42.954300
+head z 1528.447632
+Turn
+tmp A09B05
+theta:-0.173584
+head x 269.376984
+head y -45.456009
+head z 1536.239258
+Turn
+tmp A09B05
+theta:-0.168352
+head x 262.272369
+head y -47.085953
+head z 1543.131470
+Turn
+tmp A09B05
+theta:-0.162692
+head x 254.599045
+head y -48.570374
+head z 1551.080444
+Turn
+tmp A09B05
+theta:-0.157832
+head x 248.375305
+head y -47.967163
+head z 1560.579346
+Turn
+tmp A09B05
+theta:-0.154045
+head x 243.369919
+head y -51.045303
+head z 1567.349121
+Turn
+tmp A09B05
+theta:-0.150016
+head x 237.574097
+head y -51.177536
+head z 1571.757324
+Turn
+tmp A09B05
+theta:-0.145784
+head x 231.759293
+head y -50.436813
+head z 1578.463745
+Turn
+tmp A08B06
+theta:-0.142518
+head x 227.339539
+head y -49.967102
+head z 1584.346436
+Turn
+tmp A08B06
+theta:-0.139502
+head x 223.093170
+head y -48.761703
+head z 1588.821167
+Turn
+tmp A08B06
+theta:-0.137304
+head x 220.114227
+head y -47.122025
+head z 1593.023560
+Turn
+tmp A08B06
+theta:-0.136066
+head x 218.801117
+head y -51.963165
+head z 1598.120361
+Turn
+tmp A08B06
+theta:-0.133840
+head x 215.048584
+head y -47.604446
+head z 1597.158447
+Turn
+tmp A08B06
+theta:-0.132578
+head x 212.396942
+head y -45.635895
+head z 1592.649780
+Turn
+tmp A08B06
+theta:-0.131861
+head x 211.665848
+head y -50.989349
+head z 1595.902222
+Turn
+tmp A08B06
+theta:-0.131821
+head x 211.879349
+head y -52.540359
+head z 1598.000732
+Turn
+tmp A08B06
+theta:-0.133935
+head x 215.391968
+head y -49.889420
+head z 1598.556274
+Turn
+tmp A08B06
+theta:-0.135333
+head x 218.114456
+head y -52.195282
+head z 1601.841553
+Turn
+tmp A08B06
+theta:-0.138232
+head x 223.561584
+head y -51.215851
+head z 1606.974487
+Turn
+tmp A08B06
+theta:-0.141843
+head x 230.132095
+head y -52.046036
+head z 1611.543335
+Turn
+tmp A08B06
+theta:-0.146879
+head x 239.791885
+head y -55.345932
+head z 1620.818481
+Turn
+tmp A08B06
+theta:-0.150378
+head x 247.126648
+head y -58.485062
+head z 1630.964355
+Turn
+tmp A09B05
+theta:-0.155857
+head x 258.251434
+head y -64.746063
+head z 1643.536255
+Turn
+tmp A09B05
+theta:-0.160106
+head x 266.913971
+head y -67.243622
+head z 1652.836426
+Turn
+tmp A09B05
+theta:-0.166353
+head x 279.558990
+head y -68.648422
+head z 1664.981323
+Turn
+tmp A09B05
+theta:-0.172611
+head x 292.126556
+head y -71.557678
+head z 1675.559692
+Turn
+tmp A09B05
+theta:-0.180620
+head x 307.396729
+head y -71.639877
+head z 1683.349731
+Turn
+tmp A09B05
+theta:-0.187176
+head x 320.369995
+head y -73.408096
+head z 1691.560791
+Turn
+tmp A09B05
+theta:-0.194842
+head x 335.849548
+head y -73.299179
+head z 1701.835938
+Turn
+tmp A09B05
+theta:-0.199978
+head x 347.806335
+head y -76.419861
+head z 1715.978760
+Turn
+tmp A09B05
+theta:-0.207390
+head x 363.188354
+head y -77.987137
+head z 1726.052368
+Turn
+tmp A09B05
+theta:-0.213478
+head x 376.462677
+head y -78.069321
+head z 1736.604370
+Turn
+tmp A09B05
+theta:-0.217982
+head x 386.503418
+head y -79.371536
+head z 1744.922852
+Turn
+tmp A09B05
+theta:-0.221840
+head x 395.402130
+head y -78.879089
+head z 1753.041870
+Turn
+tmp A09B05
+theta:-0.225453
+head x 403.805023
+head y -76.711395
+head z 1760.630127
+Turn
+tmp A09B05
+theta:-0.231945
+head x 416.737000
+head y -72.336853
+head z 1764.369507
+Turn
+tmp A09B05
+theta:-0.236821
+head x 427.490479
+head y -68.871109
+head z 1771.248535
+Turn
+tmp A09B05
+theta:-0.241066
+head x 436.303864
+head y -67.071259
+head z 1774.700439
+Turn
+tmp A09B05
+theta:-0.242922
+head x 440.247253
+head y -66.341019
+head z 1776.508423
+Turn
+tmp A09B05
+theta:-0.247959
+head x 448.823578
+head y -62.065201
+head z 1772.818970
+Turn
+tmp A09B05
+theta:-0.250073
+head x 453.364655
+head y -60.880829
+head z 1774.976807
+Turn
+tmp AaB4
+theta:-0.252495
+head x 458.350983
+head y -63.052582
+head z 1776.547485
+Turn
+tmp AaB4
+theta:-0.254673
+head x 461.512451
+head y -60.968994
+head z 1772.827393
+Turn
+tmp AaB4
+theta:-0.254494
+head x 461.731659
+head y -60.811005
+head z 1774.970825
+Turn
+tmp AaB4
+theta:-0.254892
+head x 461.734497
+head y -56.394470
+head z 1772.089722
+Turn
+tmp AaB4
+theta:-0.256916
+head x 464.129089
+head y -53.710251
+head z 1766.613770
+Turn
+tmp AaB4
+theta:-0.256516
+head x 461.998993
+head y -56.707718
+head z 1761.376343
+Turn
+tmp AaB4
+theta:-0.257548
+head x 462.861877
+head y -58.336044
+head z 1757.272461
+Turn
+tmp AaB4
+theta:-0.258016
+head x 463.326508
+head y -56.579773
+head z 1755.700073
+Turn
+tmp AaB4
+theta:-0.258954
+head x 464.752533
+head y -52.127411
+head z 1754.430298
+Turn
+tmp AaB4
+theta:-0.259314
+head x 465.237854
+head y -53.173950
+head z 1753.711670
+Turn
+tmp AaB4
+theta:-0.261034
+head x 466.903748
+head y -53.116714
+head z 1747.855591
+Turn
+tmp AaB4
+theta:-0.262093
+head x 468.666840
+head y -52.367249
+head z 1747.037109
+Turn
+tmp AaB4
+theta:-0.262171
+head x 468.798645
+head y -51.933029
+head z 1746.982056
+Turn
+tmp AaB4
+theta:-0.263193
+head x 470.319183
+head y -46.769547
+head z 1745.524414
+Turn
+tmp AaB4
+theta:-0.264714
+head x 473.239105
+head y -49.724213
+head z 1745.782959
+Turn
+tmp AaB4
+theta:-0.265102
+head x 474.012268
+head y -50.967255
+head z 1745.951294
+Turn
+tmp AaB4
+theta:-0.266269
+head x 476.091583
+head y -48.850662
+head z 1745.549561
+Turn
+tmp AaB4
+theta:-0.266857
+head x 477.142517
+head y -49.440857
+head z 1745.360474
+Turn
+tmp AaB4
+theta:-0.267454
+head x 479.168396
+head y -50.519516
+head z 1748.670166
+Turn
+tmp AaB4
+theta:-0.267801
+head x 480.708588
+head y -52.617111
+head z 1751.903564
+Turn
+tmp AaB4
+theta:-0.267188
+head x 479.994476
+head y -54.488251
+head z 1753.509766
+Turn
+tmp AaB4
+theta:-0.268199
+head x 482.992401
+head y -56.931686
+head z 1757.484131
+Turn
+tmp AaB4
+theta:-0.270388
+head x 486.653473
+head y -55.896652
+head z 1755.755493
+Turn
+tmp AaB4
+theta:-0.271667
+head x 489.959198
+head y -51.090729
+head z 1758.938965
+Turn
+tmp AaB4
+theta:-0.272607
+head x 493.284851
+head y -52.533768
+head z 1764.458008
+Turn
+tmp AaB4
+theta:-0.274082
+head x 495.736877
+head y -52.856674
+head z 1763.195190
+Turn
+tmp AaB4
+theta:-0.276120
+head x 499.473236
+head y -54.885101
+head z 1762.692139
+Turn
+tmp AaB4
+theta:-0.276283
+head x 500.695251
+head y -50.080154
+head z 1765.906860
+Turn
+tmp AaB4
+theta:-0.277483
+head x 503.573059
+head y -51.863068
+head z 1767.967163
+Turn
+tmp AaB4
+theta:-0.278315
+head x 506.451660
+head y -51.920959
+head z 1772.475586
+Turn
+tmp AaB4
+theta:-0.278171
+head x 506.967010
+head y -45.762238
+head z 1775.247681
+Turn
+tmp AaB4
+theta:-0.280477
+head x 511.793671
+head y -50.389862
+head z 1776.624634
+Turn
+tmp AaB4
+theta:-0.280787
+head x 512.791443
+head y -48.847733
+head z 1778.012939
+Turn
+tmp AaB4
+theta:-0.281047
+head x 514.502197
+head y -46.120468
+head z 1782.210205
+Turn
+tmp AaB4
+theta:-0.282642
+head x 518.011902
+head y -46.103760
+head z 1783.680420
+Turn
+tmp AaB4
+theta:-0.282945
+head x 518.971741
+head y -43.347977
+head z 1784.965576
+Turn
+tmp AaB4
+theta:-0.284318
+head x 523.102600
+head y -48.640961
+head z 1790.003662
+Turn
+tmp AaB4
+theta:-0.285092
+head x 524.189941
+head y -44.262405
+head z 1788.584351
+Turn
+tmp AaB4
+theta:-0.285277
+head x 525.485352
+head y -44.997803
+head z 1791.777710
+Turn
+tmp AaB4
+theta:-0.284801
+head x 525.324707
+head y -45.405243
+head z 1794.386963
+Turn
+tmp AaB4
+theta:-0.286609
+head x 528.787720
+head y -45.987610
+head z 1794.181396
+Turn
+tmp AaB4
+theta:-0.287996
+head x 531.463928
+head y -45.838715
+head z 1794.085449
+Turn
+tmp AaB4
+theta:-0.288404
+head x 534.902466
+head y -50.749924
+head z 1802.987915
+Turn
+tmp AaB4
+theta:-0.288190
+head x 536.551392
+head y -49.238785
+head z 1809.969238
+Turn
+tmp AaB4
+theta:-0.288449
+head x 537.209534
+head y -49.837982
+head z 1810.465820
+Turn
+tmp AaB4
+theta:-0.289120
+head x 538.913391
+head y -48.268753
+head z 1811.748169
+Turn
+tmp AaB4
+theta:-0.289094
+head x 538.750732
+head y -43.824402
+head z 1811.376953
+Turn
+tmp AaB4
+theta:-0.289840
+head x 540.503784
+head y -42.546173
+head z 1812.321045
+Turn
+tmp AaB4
+theta:-0.290190
+head x 542.359436
+head y -39.878433
+head z 1816.222778
+Turn
+tmp AaB4
+theta:-0.290259
+head x 543.083313
+head y -44.587952
+head z 1818.185547
+Turn
+tmp AaB4
+theta:-0.290104
+head x 543.068726
+head y -42.878342
+head z 1819.164429
+Turn
+tmp AaB4
+theta:-0.290187
+head x 544.787720
+head y -48.041046
+head z 1824.373169
+Turn
+tmp AaB4
+theta:-0.289908
+head x 543.565308
+head y -45.937347
+head z 1822.131348
+Turn
+tmp AaB4
+theta:-0.289364
+head x 543.227966
+head y -47.714539
+head z 1824.625366
+Turn
+tmp AaB4
+theta:-0.288644
+head x 541.572510
+head y -44.416046
+head z 1823.867188
+Turn
+tmp AaB4
+theta:-0.288357
+head x 541.763977
+head y -43.431061
+head z 1826.434082
+Turn
+tmp AaB4
+theta:-0.287243
+head x 540.244690
+head y -44.554611
+head z 1828.778076
+Turn
+tmp AaB4
+theta:-0.285580
+head x 536.960388
+head y -40.962631
+head z 1828.852783
+Turn
+tmp AaB4
+theta:-0.283401
+head x 533.546326
+head y -38.916626
+head z 1831.982056
+Turn
+tmp AaB4
+theta:-0.284163
+head x 533.484924
+head y -35.941269
+head z 1826.582031
+Turn
+tmp AaB4
+theta:-0.283088
+head x 531.294189
+head y -42.344833
+head z 1826.375366
+Turn
+tmp AaB4
+theta:-0.283147
+head x 532.389648
+head y -40.961243
+head z 1829.743408
+Turn
+tmp AaB4
+theta:-0.282812
+head x 531.474731
+head y -39.157227
+head z 1828.878662
+Turn
+tmp AaB4
+theta:-0.282651
+head x 529.738525
+head y -36.931030
+head z 1824.000244
+Turn
+tmp AaB4
+theta:-0.282589
+head x 527.612732
+head y -34.705093
+head z 1817.101562
+Turn
+tmp AaB4
+theta:-0.280756
+head x 521.267151
+head y -36.036057
+head z 1807.616577
+Turn
+tmp AaB4
+theta:-0.276982
+head x 513.392212
+head y -41.031296
+head z 1805.875610
+Turn
+tmp AaB4
+theta:-0.275366
+head x 508.149048
+head y -41.895386
+head z 1798.477783
+Turn
+tmp AaB4
+theta:-0.276126
+head x 506.469940
+head y -38.208176
+head z 1787.346436
+Turn
+tmp AaB4
+theta:-0.271950
+head x 496.437592
+head y -38.423965
+head z 1780.247559
+Turn
+tmp AaB4
+theta:-0.267715
+head x 487.342438
+head y -36.024902
+head z 1776.680054
+Turn
+tmp AaB4
+theta:-0.264272
+head x 479.750885
+head y -38.915390
+head z 1772.904907
+Turn
+tmp AaB4
+theta:-0.261200
+head x 472.339752
+head y -38.440796
+head z 1767.033447
+Turn
+tmp AaB4
+theta:-0.256935
+head x 461.918213
+head y -31.551697
+head z 1758.067017
+Turn
+tmp AaB4
+theta:-0.254308
+head x 454.528259
+head y -29.365585
+head z 1748.616699
+Turn
+tmp AaB4
+theta:-0.253104
+head x 450.794800
+head y -29.423813
+head z 1742.868530
+Turn
+tmp AaB4
+theta:-0.252335
+head x 447.728271
+head y -29.860779
+head z 1736.518921
+Turn
+tmp AaB4
+theta:-0.252014
+head x 446.309662
+head y -31.064407
+head z 1733.319336
+Turn
+tmp AaB4
+theta:-0.251603
+head x 444.364990
+head y -28.489426
+head z 1728.713013
+Turn
+tmp AaB4
+theta:-0.251768
+head x 442.795624
+head y -27.379166
+head z 1721.422485
+Turn
+tmp AaB4
+theta:-0.252922
+head x 443.841431
+head y -27.572296
+head z 1717.274658
+Turn
+tmp AaB4
+theta:-0.253653
+head x 444.770111
+head y -30.819839
+head z 1715.692627
+Turn
+tmp AaB4
+theta:-0.256841
+head x 450.537537
+head y -30.555115
+head z 1715.405762
+Turn
+tmp AaB4
+theta:-0.260589
+head x 458.322510
+head y -30.610336
+head z 1718.800415
+Turn
+tmp AaB4
+theta:-0.264425
+head x 465.866364
+head y -30.867950
+head z 1720.551270
+Turn
+tmp AaB4
+theta:-0.269536
+head x 476.632141
+head y -33.861832
+head z 1725.310425
+Turn
+tmp AaB4
+theta:-0.274873
+head x 487.227142
+head y -33.238220
+head z 1727.687500
+Turn
+tmp AaB4
+theta:-0.280129
+head x 499.410675
+head y -33.220734
+head z 1735.912231
+Turn
+tmp AaB4
+theta:-0.285541
+head x 512.084412
+head y -33.137222
+head z 1744.375977
+Turn
+tmp AaB4
+theta:-0.291415
+head x 524.526123
+head y -34.583176
+head z 1748.688721
+Turn
+tmp AaB4
+theta:-0.298210
+head x 539.410706
+head y -36.283600
+head z 1754.890747
+Turn
+tmp AaB4
+theta:-0.303982
+head x 553.983765
+head y -36.161835
+head z 1765.941284
+Turn
+tmp AaB4
+theta:-0.309833
+head x 569.859314
+head y -36.128647
+head z 1780.010254
+Turn
+tmp AaB4
+theta:-0.316697
+head x 585.638123
+head y -36.257050
+head z 1786.965088
+Turn
+tmp AaB4
+theta:-0.320842
+head x 596.708496
+head y -34.326050
+head z 1795.561035
+Turn
+tmp AaB4
+theta:-0.327156
+head x 611.844055
+head y -35.372452
+head z 1802.988281
+Turn
+tmp AaB4
+theta:-0.330717
+head x 620.090088
+head y -33.735687
+head z 1806.126709
+Turn
+tmp AaB4
+theta:-0.334458
+head x 630.619995
+head y -35.980820
+head z 1814.661621
+Turn
+tmp AaB4
+theta:-0.337698
+head x 639.753540
+head y -37.309952
+head z 1821.886230
+Turn
+tmp AaB4
+theta:-0.339897
+head x 645.199341
+head y -36.464600
+head z 1824.550537
+Turn
+tmp AaB4
+theta:-0.341689
+head x 649.711670
+head y -36.948151
+head z 1826.887085
+Turn
+tmp AaB4
+theta:-0.343591
+head x 655.466064
+head y -35.526352
+head z 1832.024048
+Turn
+tmp AaB4
+theta:-0.344549
+head x 658.550171
+head y -34.807861
+head z 1835.100220
+Turn
+tmp AaB4
+theta:-0.345922
+head x 661.909119
+head y -33.468140
+head z 1836.524292
+Turn
+tmp AaB4
+theta:-0.348242
+head x 668.106140
+head y -36.746811
+head z 1840.320435
+Turn
+tmp AaB4
+theta:-0.347870
+head x 665.843384
+head y -36.235519
+head z 1836.221191
+Turn
+tmp AaB4
+theta:-0.348075
+head x 664.812805
+head y -34.993515
+head z 1832.203003
+Turn
+tmp AaB4
+theta:-0.346956
+head x 661.181152
+head y -32.786377
+head z 1828.573242
+Turn
+tmp AaB4
+theta:-0.345750
+head x 659.133179
+head y -32.304031
+head z 1829.811890
+Turn
+tmp AaB4
+theta:-0.345181
+head x 657.828247
+head y -32.344620
+head z 1829.450806
+Turn
+tmp AaB4
+theta:-0.344260
+head x 656.405396
+head y -32.375183
+head z 1830.785400
+Turn
+tmp AaB4
+theta:-0.343967
+head x 655.860840
+head y -33.591644
+head z 1830.959229
+Turn
+tmp AaB4
+theta:-0.344178
+head x 657.223816
+head y -32.879776
+head z 1833.545898
+Turn
+tmp AaB4
+theta:-0.344650
+head x 658.667480
+head y -31.385880
+head z 1834.841675
+Turn
+tmp AaB4
+theta:-0.345831
+head x 661.694580
+head y -32.614822
+head z 1836.451538
+Turn
+tmp AaB4
+theta:-0.346727
+head x 663.685852
+head y -32.529495
+head z 1836.820068
+Turn
+tmp AaB4
+theta:-0.347775
+head x 667.927551
+head y -37.905640
+head z 1842.510132
+Turn
+tmp AaB4
+theta:-0.349279
+head x 674.078857
+head y -40.565079
+head z 1850.791138
+Turn
+tmp AaB4
+theta:-0.352822
+head x 681.934326
+head y -41.284241
+head z 1851.925049
+Turn
+tmp AbB03
+theta:-0.353774
+head x 684.670776
+head y -38.242661
+head z 1853.912842
+Turn
+tmp AbB03
+theta:-0.358149
+head x 695.621399
+head y -32.946991
+head z 1858.502075
+Turn
+tmp AbB03
+theta:-0.359923
+head x 702.516602
+head y -34.049728
+head z 1866.828857
+Turn
+tmp AbB03
+theta:-0.361791
+head x 709.776733
+head y -36.480042
+head z 1875.485718
+Turn
+tmp AbB03
+theta:-0.364326
+head x 718.772522
+head y -33.353165
+head z 1884.813477
+Turn
+tmp AbB03
+theta:-0.365768
+head x 723.464600
+head y -33.131653
+head z 1888.930908
+Turn
+tmp AbB03
+theta:-0.366903
+head x 729.801941
+head y -34.777817
+head z 1899.022461
+Turn
+tmp AbB03
+theta:-0.369471
+head x 740.042969
+head y -35.165863
+head z 1910.998535
+Turn
+tmp AbB03
+theta:-0.370810
+head x 743.798096
+head y -32.825043
+head z 1913.082520
+Turn
+tmp AbB03
+theta:-0.374091
+head x 749.049866
+head y -26.142899
+head z 1908.031616
+Turn
+tmp AbB03
+theta:-0.374691
+head x 753.143921
+head y -30.212814
+head z 1915.080078
+Turn
+tmp AbB03
+theta:-0.375661
+head x 754.695312
+head y -28.957535
+head z 1913.574219
+Turn
+tmp AbB03
+theta:-0.375812
+head x 754.932800
+head y -28.297913
+head z 1913.329590
+Turn
+tmp AbB03
+theta:-0.375212
+head x 754.170776
+head y -27.865341
+head z 1914.763428
+Turn
+tmp AbB03
+theta:-0.375135
+head x 755.837341
+head y -30.499481
+head z 1919.427246
+Turn
+tmp AbB03
+theta:-0.374628
+head x 753.669800
+head y -31.784698
+head z 1916.775146
+Turn
+tmp AbB03
+theta:-0.373415
+head x 752.225159
+head y -35.682098
+head z 1919.937012
+Turn
+tmp AbB03
+theta:-0.372812
+head x 751.121399
+head y -35.672256
+head z 1920.524170
+Turn
+tmp AbB03
+theta:-0.370124
+head x 745.872742
+head y -41.969116
+head z 1922.324219
+Turn
+tmp AbB03
+theta:-0.368004
+head x 741.168945
+head y -46.120270
+head z 1922.275146
+Turn
+tmp AbB03
+theta:-0.367013
+head x 738.769043
+head y -48.013336
+head z 1921.720947
+Turn
+tmp AbB03
+theta:-0.365798
+head x 735.970520
+head y -44.718475
+head z 1921.406372
+Turn
+tmp AbB03
+theta:-0.364633
+head x 733.155334
+head y -51.573090
+head z 1920.758423
+Turn
+tmp AbB03
+theta:-0.364663
+head x 735.196350
+head y -58.475418
+head z 1925.927734
+Turn
+tmp AbB03
+theta:-0.364048
+head x 734.826904
+head y -58.490158
+head z 1928.522949
+Turn
+tmp AbB03
+theta:-0.364117
+head x 735.290710
+head y -57.356628
+head z 1929.339966
+Turn
+tmp AbB03
+theta:-0.362504
+head x 732.258972
+head y -55.083664
+head z 1930.737183
+Turn
+tmp AbB03
+theta:-0.361593
+head x 732.685791
+head y -50.367569
+head z 1937.181274
+Turn
+tmp AbB03
+theta:-0.360478
+head x 733.039490
+head y -51.806610
+head z 1944.663818
+Turn
+tmp AbB03
+theta:-0.360916
+head x 735.240295
+head y -50.658249
+head z 1947.921143
+Turn
+tmp AbB03
+theta:-0.359426
+head x 734.597961
+head y -51.254105
+head z 1955.027466
+Turn
+tmp AbB03
+theta:-0.359737
+head x 734.559692
+head y -48.328506
+head z 1953.082520
+Turn
+tmp AbB03
+theta:-0.357723
+head x 731.768311
+head y -42.247009
+head z 1957.619629
+Turn
+tmp AbB03
+theta:-0.356175
+head x 729.154175
+head y -41.646072
+head z 1959.866943
+Turn
+tmp AbB03
+theta:-0.355150
+head x 727.109131
+head y -37.033966
+head z 1960.516724
+Turn
+tmp AbB03
+theta:-0.355305
+head x 727.385132
+head y -30.736160
+head z 1960.330933
+Turn
+tmp AbB03
+theta:-0.355698
+head x 728.970398
+head y -29.251617
+head z 1962.236694
+Turn
+tmp AbB03
+theta:-0.356191
+head x 730.051270
+head y -25.682114
+head z 1962.186646
+Turn
+tmp AbB03
+theta:-0.358105
+head x 736.012329
+head y -24.782776
+head z 1966.682007
+Turn
+tmp AbB03
+theta:-0.359435
+head x 742.094666
+head y -28.022568
+head z 1974.927246
+Turn
+tmp AbB03
+theta:-0.362276
+head x 752.153687
+head y -29.103653
+head z 1984.554932
+Turn
+tmp AbB03
+theta:-0.367145
+head x 765.462708
+head y -26.677750
+head z 1990.375122
+Turn
+tmp AbB03
+theta:-0.371260
+head x 777.369995
+head y -24.685730
+head z 1996.770752
+Turn
+tmp AbB03
+theta:-0.375799
+head x 789.283203
+head y -23.168945
+head z 2000.464478
+Turn
+tmp AbB03
+theta:-0.380690
+head x 803.955444
+head y -27.598679
+head z 2008.820312
+Turn
+tmp AbB03
+theta:-0.385032
+head x 815.575867
+head y -24.199844
+head z 2012.476929
+Turn
+tmp AbB03
+theta:-0.390215
+head x 832.828247
+head y -21.857864
+head z 2024.836670
+Turn
+tmp AbB03
+theta:-0.396155
+head x 849.076904
+head y -24.360031
+head z 2029.979980
+Turn
+tmp AbB03
+theta:-0.401625
+head x 865.581360
+head y -25.600204
+head z 2038.051025
+Turn
+tmp AbB03
+theta:-0.407429
+head x 884.134399
+head y -25.494751
+head z 2048.607422
+Turn
+tmp AbB03
+theta:-0.413895
+head x 904.634216
+head y -18.619202
+head z 2059.403076
+Turn
+tmp AbB03
+theta:-0.420494
+head x 923.294312
+head y -18.939499
+head z 2064.774414
+Turn
+tmp AbB03
+theta:-0.426247
+head x 938.118164
+head y -13.362885
+head z 2065.944580
+Turn
+tmp AbB03
+theta:-0.430905
+head x 950.247498
+head y -11.353027
+head z 2067.028076
+Turn
+tmp AbB03
+theta:-0.434936
+head x 960.619324
+head y -11.474670
+head z 2067.586426
+Turn
+tmp AbB03
+theta:-0.438613
+head x 970.235718
+head y -9.783173
+head z 2068.346436
+Turn
+tmp AbB03
+theta:-0.441226
+head x 980.092407
+head y -2.907761
+head z 2075.241455
+Turn
+tmp AbB03
+theta:-0.443658
+head x 990.052917
+head y 0.603210
+head z 2083.192871
+Turn
+tmp AbB03
+theta:-0.445513
+head x 996.929443
+head y 9.717285
+head z 2087.668457
+Turn
+tmp AbB03
+theta:-0.447523
+head x 1002.681641
+head y 18.063660
+head z 2088.902100
+Turn
+tmp AbB03
+theta:-0.448437
+head x 1009.419067
+head y 18.926636
+head z 2098.021484
+Turn
+tmp AbB03
+theta:-0.449795
+head x 1014.407288
+head y 26.200485
+head z 2101.080322
+Turn
+tmp AbB03
+theta:-0.450781
+head x 1017.217957
+head y 26.908524
+head z 2101.610840
+Turn
+tmp AcB02
+theta:-0.450931
+head x 1018.462463
+head y 27.615738
+head z 2103.375488
+Turn
+tmp AcB02
+theta:-0.450982
+head x 1018.779602
+head y 28.779160
+head z 2103.756104
+Turn
+tmp AcB02
+theta:-0.451065
+head x 1018.847168
+head y 24.988892
+head z 2103.449707
+Turn
+tmp AcB02
+theta:-0.450539
+head x 1018.130432
+head y 25.104385
+head z 2104.794189
+Turn
+tmp AcB02
+theta:-0.450462
+head x 1017.292175
+head y 23.601547
+head z 2103.473145
+Turn
+tmp AcB02
+theta:-0.450042
+head x 1016.846252
+head y 22.795868
+head z 2104.803955
+Turn
+tmp AcB02
+theta:-0.449124
+head x 1015.266907
+head y 23.930206
+head z 2106.474121
+Turn
+tmp AbB03
+theta:-0.449114
+head x 1013.957886
+head y 24.236282
+head z 2103.811279
+Turn
+tmp AbB03
+theta:-0.449123
+head x 1014.060364
+head y 26.250244
+head z 2103.975830
+Turn
+tmp AbB03
+theta:-0.449356
+head x 1014.222046
+head y 28.854462
+head z 2103.057861
+Turn
+tmp AbB03
+theta:-0.450345
+head x 1016.323914
+head y 30.734558
+head z 2102.097412
+Turn
+tmp AcB02
+theta:-0.451619
+head x 1019.882324
+head y 28.281616
+head z 2102.619873
+Turn
+tmp AcB02
+theta:-0.452280
+head x 1021.473938
+head y 38.620209
+head z 2102.359375
+Turn
+tmp AcB02
+theta:-0.453477
+head x 1025.750366
+head y 40.678909
+head z 2104.749268
+Turn
+tmp AcB02
+theta:-0.456201
+head x 1032.209106
+head y 49.484665
+head z 2103.430908
+Turn
+tmp AcB02
+theta:-0.459690
+head x 1041.745850
+head y 62.229050
+head z 2104.268555
+Turn
+tmp AcB02
+theta:-0.423288
+head x 963.023132
+head y 43.215927
+head z 2137.573730
+Turn
+tmp AbB03
+theta:-0.418994
+head x 957.358704
+head y 26.918701
+head z 2149.598145
+Turn
+tmp AbB03
+theta:-0.408634
+head x 931.072815
+head y 5.413330
+head z 2150.242676
+Turn
+tmp AbB03
+theta:-0.413376
+head x 946.086426
+head y -5.096817
+head z 2156.808105
+Turn
+tmp AbB03
+theta:-0.425346
+head x 971.390381
+head y -16.498505
+head z 2144.350098
+Turn
+tmp AbB03
+theta:-0.434489
+head x 988.288269
+head y -31.021072
+head z 2129.631348
+Turn
+tmp AbB03
+theta:-0.441724
+head x 1004.839539
+head y -40.144806
+head z 2124.895996
+Turn
+tmp AbB03
+theta:-0.445771
+head x 1015.892029
+head y -45.321976
+head z 2125.967285
+Turn
+tmp AbB03
+theta:-0.447696
+head x 1023.055298
+head y -50.995743
+head z 2130.404541
+Turn
+tmp AbB03
+theta:-0.448537
+head x 1026.604980
+head y -58.171890
+head z 2133.195557
+Turn
+tmp AbB03
+theta:-0.449861
+head x 1030.360596
+head y -66.557098
+head z 2133.768311
+Turn
+tmp AbB03
+theta:-0.449587
+head x 1030.701294
+head y -73.397339
+head z 2135.964600
+Turn
+tmp AbB03
+theta:-0.454167
+head x 1043.669434
+head y -78.589890
+head z 2137.767822
+Turn
+tmp AcB02
+theta:-0.455208
+head x 1043.524780
+head y -85.642548
+head z 2131.840332
+Turn
+tmp AcB02
+theta:-0.457368
+head x 1048.799194
+head y -89.747650
+head z 2130.950195
+Turn
+tmp AcB02
+theta:-0.459483
+head x 1054.883057
+head y -92.448044
+head z 2131.916016
+Turn
+tmp AcB02
+theta:-0.459089
+head x 1053.455322
+head y -94.533249
+head z 2131.145752
+Turn
+tmp AcB02
+theta:-0.458581
+head x 1051.596680
+head y -96.404205
+head z 2130.104980
+Turn
+tmp AcB02
+theta:-0.458644
+head x 1051.403320
+head y -98.050751
+head z 2129.378906
+Turn
+tmp AcB02
+theta:-0.458648
+head x 1048.997681
+head y -103.235611
+head z 2124.481934
+Turn
+tmp AcB02
+theta:-0.457313
+head x 1043.697998
+head y -107.957962
+head z 2120.879639
+Turn
+tmp AcB02
+theta:-0.452431
+head x 1031.255859
+head y -117.539597
+head z 2121.675781
+Turn
+tmp AcB02
+theta:-0.448621
+head x 1021.142090
+head y -125.152603
+head z 2121.386475
+Turn
+tmp AbB03
+theta:-0.444224
+head x 1008.502136
+head y -131.608429
+head z 2118.918213
+Turn
+tmp AbB03
+theta:-0.439839
+head x 997.251587
+head y -139.992996
+head z 2119.180908
+Turn
+tmp AbB03
+theta:-0.437094
+head x 990.100830
+head y -145.523712
+head z 2119.062256
+Turn
+tmp AbB03
+theta:-0.434847
+head x 985.601990
+head y -149.813782
+head z 2121.855225
+Turn
+tmp AbB03
+theta:-0.433489
+head x 983.227356
+head y -152.016525
+head z 2124.286133
+Turn
+tmp AbB03
+theta:-0.432537
+head x 983.830688
+head y -154.025360
+head z 2130.907227
+Turn
+tmp AbB03
+theta:-0.432484
+head x 986.355347
+head y -155.597229
+head z 2136.674805
+Turn
+tmp AbB03
+theta:-0.432651
+head x 989.405884
+head y -156.798309
+head z 2142.341309
+Turn
+tmp AbB03
+theta:-0.432165
+head x 990.327209
+head y -157.496017
+head z 2147.078369
+Turn
+tmp AbB03
+theta:-0.432805
+head x 993.670715
+head y -156.276901
+head z 2150.704834
+Turn
+tmp AbB03
+theta:-0.433138
+head x 995.973145
+head y -156.022339
+head z 2153.805176
+Turn
+tmp AbB03
+theta:-0.434309
+head x 1002.150940
+head y -154.914505
+head z 2160.521484
+Turn
+tmp AbB03
+theta:-0.434783
+head x 1006.110840
+head y -156.822235
+head z 2166.370117
+Turn
+tmp AbB03
+theta:-0.436283
+head x 1012.763306
+head y -159.272018
+head z 2172.154785
+Turn
+tmp AbB03
+theta:-0.438613
+head x 1019.991577
+head y -159.368073
+head z 2174.420410
+Turn
+tmp AbB03
+theta:-0.443153
+head x 1031.718994
+head y -159.025528
+head z 2173.695801
+Turn
+tmp AbB03
+theta:-0.446902
+head x 1040.828979
+head y -160.022049
+head z 2171.830322
+Turn
+tmp AbB03
+theta:-0.451062
+head x 1050.129028
+head y -162.360764
+head z 2168.052734
+Turn
+tmp AcB02
+theta:-0.455528
+head x 1062.107300
+head y -162.893631
+head z 2168.045410
+Turn
+tmp AcB02
+theta:-0.448643
+head x 1045.289917
+head y -179.554352
+head z 2171.430420
+Turn
+tmp AbB03
+theta:-0.445140
+head x 1036.845703
+head y -187.859894
+head z 2173.338867
+Turn
+tmp AbB03
+theta:-0.443352
+head x 1032.561768
+head y -192.060806
+head z 2174.354980
+Turn
+tmp AbB03
+theta:-0.442457
+head x 1030.413574
+head y -194.170670
+head z 2174.854736
+Turn
+tmp AbB03
+theta:-0.442003
+head x 1029.329590
+head y -195.235580
+head z 2175.114502
+Turn
+tmp AbB03
+theta:-0.442286
+head x 1034.599854
+head y -181.185532
+head z 2184.656250
+Turn
+tmp AbB03
+theta:-0.440865
+head x 1039.535645
+head y -173.838730
+head z 2203.161133
+Turn
+tmp AbB03
+theta:-0.439740
+head x 1042.665039
+head y -169.464813
+head z 2216.252441
+Turn
+tmp AbB03
+theta:-0.440667
+head x 1039.761597
+head y -170.591980
+head z 2204.772705
+Turn
+tmp AbB03
+theta:-0.432887
+head x 1005.677368
+head y -165.685913
+head z 2176.225830
+Turn
+tmp AbB03
+theta:-0.428887
+head x 988.520752
+head y -163.394196
+head z 2161.764893
+Turn
+tmp AbB03
+theta:-0.438195
+head x 1027.744995
+head y -131.019958
+head z 2193.329834
+Turn
+tmp AbB03
+theta:-0.442786
+head x 1047.342407
+head y -115.306732
+head z 2208.706055
+Turn
+tmp AbB03
+theta:-0.445059
+head x 1057.130005
+head y -107.588577
+head z 2216.320801
+Turn
+tmp AbB03
+theta:-0.446189
+head x 1062.019897
+head y -103.765503
+head z 2220.113281
+Turn
+tmp AbB03
+theta:-0.446752
+head x 1064.464111
+head y -101.862724
+head z 2222.006348
+Turn
+tmp AbB03
+theta:-0.447033
+head x 1065.685791
+head y -100.914459
+head z 2222.952148
+Turn
+tmp AbB03
+theta:-0.447174
+head x 1066.296631
+head y -100.440514
+head z 2223.424805
+Turn
+tmp AbB03
+theta:-0.447244
+head x 1066.601807
+head y -100.204231
+head z 2223.660645
+Turn
+tmp AbB03
+theta:-0.447279
+head x 1066.754883
+head y -100.085526
+head z 2223.779053
+Turn
+tmp AbB03
+theta:-0.447297
+head x 1066.831543
+head y -100.025970
+head z 2223.836914
+Turn
+tmp AbB03
+theta:-0.447306
+head x 1066.869995
+head y -99.996140
+head z 2223.863770
+Turn
+tmp AbB03
+theta:-0.447309
+head x 1066.887817
+head y -99.982971
+head z 2223.886230
+Turn
+tmp AbB03
+theta:-0.447312
+head x 1066.898682
+head y -99.974335
+head z 2223.888428
+Turn
+tmp AbB03
+theta:-0.447312
+head x 1066.901367
+head y -99.972931
+head z 2223.898682
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.905273
+head y -99.969307
+head z 2223.894287
+Turn
+tmp AbB03
+theta:-0.447312
+head x 1066.905273
+head y -99.970093
+head z 2223.902344
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.906982
+head y -99.968445
+head z 2223.896240
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.906006
+head y -99.969818
+head z 2223.902832
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.907715
+head y -99.967812
+head z 2223.896729
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.906250
+head y -99.969994
+head z 2223.903320
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.908081
+head y -99.967903
+head z 2223.895752
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.906738
+head y -99.969681
+head z 2223.902588
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.908081
+head y -99.968063
+head z 2223.895996
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.906738
+head y -99.969711
+head z 2223.902588
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.908447
+head y -99.967667
+head z 2223.895020
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.906738
+head y -99.969734
+head z 2223.902588
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.908447
+head y -99.967896
+head z 2223.896240
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.907227
+head y -99.969543
+head z 2223.902832
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.908569
+head y -99.967987
+head z 2223.896484
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.907227
+head y -99.969635
+head z 2223.903076
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.908936
+head y -99.967628
+head z 2223.895508
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.907227
+head y -99.969772
+head z 2223.903076
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.909058
+head y -99.967758
+head z 2223.895752
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.907837
+head y -99.969391
+head z 2223.902344
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.909424
+head y -99.967484
+head z 2223.895752
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.907959
+head y -99.969360
+head z 2223.903564
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.909790
+head y -99.967285
+head z 2223.895996
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.908203
+head y -99.969559
+head z 2223.903809
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.910400
+head y -99.966827
+head z 2223.896729
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.908691
+head y -99.969002
+head z 2223.904297
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.910400
+head y -99.966919
+head z 2223.896973
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.909180
+head y -99.968826
+head z 2223.904785
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.910767
+head y -99.966766
+head z 2223.897217
+Turn
+tmp AbB03
+theta:-0.447313
+head x 1066.909424
+head y -99.968674
+head z 2223.905029
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.911255
+head y -99.966614
+head z 2223.897705
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.910156
+head y -99.968140
+head z 2223.905518
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.911865
+head y -99.966080
+head z 2223.897949
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.910767
+head y -99.967911
+head z 2223.905029
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.912231
+head y -99.965881
+head z 2223.898438
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.910645
+head y -99.968117
+head z 2223.906250
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.911987
+head y -99.966461
+head z 2223.899658
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.910767
+head y -99.968277
+head z 2223.906250
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.912109
+head y -99.966599
+head z 2223.899658
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.910522
+head y -99.968674
+head z 2223.906250
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.912476
+head y -99.966194
+head z 2223.898926
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.910889
+head y -99.968216
+head z 2223.905518
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.912720
+head y -99.965927
+head z 2223.898193
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.911499
+head y -99.967712
+head z 2223.906006
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.912842
+head y -99.966179
+head z 2223.899414
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.911621
+head y -99.967827
+head z 2223.906250
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.913086
+head y -99.965912
+head z 2223.899902
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.911621
+head y -99.967941
+head z 2223.906494
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.913574
+head y -99.965775
+head z 2223.899170
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.912354
+head y -99.967537
+head z 2223.906982
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.914185
+head y -99.965248
+head z 2223.899658
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.913208
+head y -99.966660
+head z 2223.907715
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.914795
+head y -99.964691
+head z 2223.900146
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.913574
+head y -99.966461
+head z 2223.907959
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.914673
+head y -99.965271
+head z 2223.901367
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.913574
+head y -99.966789
+head z 2223.909180
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.915039
+head y -99.965027
+head z 2223.901611
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.913818
+head y -99.966545
+head z 2223.909424
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.915527
+head y -99.964340
+head z 2223.901855
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.914062
+head y -99.966248
+head z 2223.909668
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.915771
+head y -99.964081
+head z 2223.902344
+Turn
+tmp AbB03
+theta:-0.447314
+head x 1066.914551
+head y -99.965607
+head z 2223.910156
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.916504
+head y -99.963440
+head z 2223.902588
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.914795
+head y -99.965332
+head z 2223.910156
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.916626
+head y -99.963058
+head z 2223.902832
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.915527
+head y -99.964561
+head z 2223.909668
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.916992
+head y -99.962845
+head z 2223.903076
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.915405
+head y -99.964806
+head z 2223.910889
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.917114
+head y -99.962532
+head z 2223.903320
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.915894
+head y -99.964363
+head z 2223.910156
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.917236
+head y -99.962738
+head z 2223.903564
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.916382
+head y -99.963821
+head z 2223.910645
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.917847
+head y -99.962181
+head z 2223.904297
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.916626
+head y -99.963745
+head z 2223.911865
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.918213
+head y -99.961472
+head z 2223.904541
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.917114
+head y -99.963150
+head z 2223.912354
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.918701
+head y -99.961327
+head z 2223.904785
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.917236
+head y -99.963303
+head z 2223.912598
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.919434
+head y -99.960350
+head z 2223.905273
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.918091
+head y -99.962173
+head z 2223.911865
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.919434
+head y -99.960464
+head z 2223.905518
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.918457
+head y -99.962021
+head z 2223.912354
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.920166
+head y -99.959900
+head z 2223.905029
+Turn
+tmp AbB03
+theta:-0.447315
+head x 1066.918701
+head y -99.961777
+head z 2223.912842
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.920654
+head y -99.959290
+head z 2223.905518
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.919312
+head y -99.961288
+head z 2223.913330
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.921021
+head y -99.959152
+head z 2223.906982
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.919800
+head y -99.960632
+head z 2223.913574
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.921387
+head y -99.958878
+head z 2223.907227
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.920288
+head y -99.960030
+head z 2223.914062
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.921753
+head y -99.958229
+head z 2223.907471
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.920654
+head y -99.959824
+head z 2223.914307
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.921875
+head y -99.958298
+head z 2223.907959
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.920898
+head y -99.959526
+head z 2223.914795
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.922485
+head y -99.957748
+head z 2223.908447
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.921021
+head y -99.959534
+head z 2223.916260
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.922729
+head y -99.957733
+head z 2223.909912
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.921631
+head y -99.959000
+head z 2223.916748
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.923584
+head y -99.956650
+head z 2223.909424
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.922241
+head y -99.958527
+head z 2223.917236
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.924072
+head y -99.956116
+head z 2223.909668
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.922729
+head y -99.958107
+head z 2223.916504
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.924316
+head y -99.956291
+head z 2223.910156
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.923096
+head y -99.957916
+head z 2223.916992
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.924316
+head y -99.956467
+head z 2223.910400
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.923462
+head y -99.957840
+head z 2223.917480
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.924683
+head y -99.956299
+head z 2223.910889
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.923828
+head y -99.957626
+head z 2223.917969
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.925293
+head y -99.955826
+head z 2223.911621
+Turn
+tmp AbB03
+theta:-0.447316
+head x 1066.924072
+head y -99.957489
+head z 2223.918457
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.926147
+head y -99.954788
+head z 2223.910889
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.925049
+head y -99.956474
+head z 2223.917969
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.926758
+head y -99.954254
+head z 2223.911377
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.925415
+head y -99.955978
+head z 2223.919189
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.927124
+head y -99.954041
+head z 2223.911865
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.926025
+head y -99.955475
+head z 2223.919922
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.927612
+head y -99.953461
+head z 2223.912354
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.926758
+head y -99.954979
+head z 2223.920654
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.928223
+head y -99.953018
+head z 2223.912842
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.927246
+head y -99.954521
+head z 2223.920898
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.929321
+head y -99.952148
+head z 2223.913818
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.928223
+head y -99.953751
+head z 2223.921875
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.929932
+head y -99.951729
+head z 2223.914551
+Turn
+tmp AbB03
+theta:-0.447317
+head x 1066.928589
+head y -99.953674
+head z 2223.922363
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.930542
+head y -99.951263
+head z 2223.915283
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.929443
+head y -99.952789
+head z 2223.923096
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.931519
+head y -99.950455
+head z 2223.915771
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.930054
+head y -99.952316
+head z 2223.923584
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.932129
+head y -99.949921
+head z 2223.916260
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.930664
+head y -99.951744
+head z 2223.924072
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.932617
+head y -99.949387
+head z 2223.916992
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.931519
+head y -99.950958
+head z 2223.924805
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.933472
+head y -99.948456
+head z 2223.917725
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.931763
+head y -99.950653
+head z 2223.926025
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.933716
+head y -99.948509
+head z 2223.918945
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.932129
+head y -99.950485
+head z 2223.927490
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.934326
+head y -99.947899
+head z 2223.920654
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.932983
+head y -99.949608
+head z 2223.928223
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.934814
+head y -99.947365
+head z 2223.919922
+Turn
+tmp AbB03
+theta:-0.447318
+head x 1066.933716
+head y -99.949127
+head z 2223.927979
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.935547
+head y -99.946892
+head z 2223.920654
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.934570
+head y -99.948006
+head z 2223.927490
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.936401
+head y -99.945938
+head z 2223.920166
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.934692
+head y -99.948158
+head z 2223.928955
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.937012
+head y -99.945305
+head z 2223.922119
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.935547
+head y -99.947281
+head z 2223.929443
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.937500
+head y -99.945107
+head z 2223.922363
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.936401
+head y -99.946457
+head z 2223.930176
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.937866
+head y -99.944778
+head z 2223.924072
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.936768
+head y -99.946259
+head z 2223.931885
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.938965
+head y -99.943619
+head z 2223.923828
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.937500
+head y -99.945770
+head z 2223.932617
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.939819
+head y -99.942833
+head z 2223.924805
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.938599
+head y -99.944626
+head z 2223.932373
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.940674
+head y -99.942108
+head z 2223.924561
+Turn
+tmp AbB03
+theta:-0.447319
+head x 1066.938965
+head y -99.944565
+head z 2223.933350
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.940918
+head y -99.942215
+head z 2223.925781
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.939819
+head y -99.943695
+head z 2223.933838
+Turn
+tmp AbB03
+theta:-0.447322
+head x 1066.941772
+head y -99.941330
+head z 2223.926514
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.940674
+head y -99.942856
+head z 2223.934570
+Turn
+tmp AbB03
+theta:-0.447322
+head x 1066.942627
+head y -99.940506
+head z 2223.927246
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.941528
+head y -99.941986
+head z 2223.935059
+Turn
+tmp AbB03
+theta:-0.447322
+head x 1066.943237
+head y -99.940002
+head z 2223.927979
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.941895
+head y -99.941757
+head z 2223.935791
+Turn
+tmp AbB03
+theta:-0.447322
+head x 1066.944336
+head y -99.938751
+head z 2223.928711
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.942871
+head y -99.940521
+head z 2223.936523
+Turn
+tmp AbB03
+theta:-0.447322
+head x 1066.945312
+head y -99.937469
+head z 2223.929688
+Turn
+tmp AbB03
+theta:-0.447320
+head x 1066.943848
+head y -99.939240
+head z 2223.937256
+Turn
+tmp AbB03
+theta:-0.447322
+head x 1066.946045
+head y -99.936539
+head z 2223.930176
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.944702
+head y -99.938354
+head z 2223.937744
+Turn
+tmp AbB03
+theta:-0.447322
+head x 1066.946411
+head y -99.936409
+head z 2223.930664
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.945312
+head y -99.937866
+head z 2223.938477
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.947266
+head y -99.935471
+head z 2223.931152
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.946045
+head y -99.936935
+head z 2223.939209
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.948364
+head y -99.934204
+head z 2223.932129
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.947144
+head y -99.935730
+head z 2223.940186
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.949097
+head y -99.933243
+head z 2223.932617
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.947876
+head y -99.934746
+head z 2223.940674
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.949341
+head y -99.933197
+head z 2223.934082
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.948486
+head y -99.934143
+head z 2223.942139
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.950073
+head y -99.932220
+head z 2223.936035
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.948975
+head y -99.933624
+head z 2223.942871
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.950562
+head y -99.931580
+head z 2223.936523
+Turn
+tmp AbB03
+theta:-0.447321
+head x 1066.949463
+head y -99.933060
+head z 2223.943604
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.951294
+head y -99.930756
+head z 2223.936035
+Turn
+tmp AbB03
+theta:-0.447322
+head x 1066.950317
+head y -99.932106
+head z 2223.942871
+Turn
+tmp AbB03
+theta:-0.447324
+head x 1066.952026
+head y -99.929901
+head z 2223.935303
+Turn
+tmp AbB03
+theta:-0.447322
+head x 1066.951172
+head y -99.930870
+head z 2223.942627
+Turn
+tmp AbB03
+theta:-0.447324
+head x 1066.952881
+head y -99.928818
+head z 2223.935059
+Turn
+tmp AbB03
+theta:-0.447322
+head x 1066.952026
+head y -99.929962
+head z 2223.943115
+Turn
+tmp AbB03
+theta:-0.447324
+head x 1066.953857
+head y -99.927689
+head z 2223.937012
+Turn
+tmp AbB03
+theta:-0.447322
+head x 1066.952393
+head y -99.929657
+head z 2223.944824
+Turn
+tmp AbB03
+theta:-0.447324
+head x 1066.954346
+head y -99.927071
+head z 2223.937500
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.953125
+head y -99.928772
+head z 2223.944092
+Turn
+tmp AbB03
+theta:-0.447325
+head x 1066.955322
+head y -99.926056
+head z 2223.937256
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.954102
+head y -99.927521
+head z 2223.945068
+Turn
+tmp AbB03
+theta:-0.447324
+head x 1066.955688
+head y -99.925636
+head z 2223.938965
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.954468
+head y -99.927246
+head z 2223.946777
+Turn
+tmp AbB03
+theta:-0.447325
+head x 1066.956299
+head y -99.925056
+head z 2223.939209
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.955566
+head y -99.926025
+head z 2223.946289
+Turn
+tmp AbB03
+theta:-0.447325
+head x 1066.957397
+head y -99.923569
+head z 2223.938965
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.956421
+head y -99.924713
+head z 2223.947021
+Turn
+tmp AbB03
+theta:-0.447325
+head x 1066.958496
+head y -99.922272
+head z 2223.939697
+Turn
+tmp AbB03
+theta:-0.447324
+head x 1066.957520
+head y -99.923477
+head z 2223.947998
+Turn
+tmp AbB03
+theta:-0.447325
+head x 1066.959106
+head y -99.921524
+head z 2223.941650
+Turn
+tmp AbB03
+theta:-0.447323
+head x 1066.957642
+head y -99.923630
+head z 2223.949463
+Turn
+tmp AbB03
