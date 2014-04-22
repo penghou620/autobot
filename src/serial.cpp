@@ -31,16 +31,18 @@ int SerialOpen(){
 }
 
 void cmd_vel_callback(const std_msgs::String::ConstPtr& msg){
-	std::string left = msg->data.substr(0,3);
-	std::string right = msg->data.substr(3,3);
-	char tmp[6];
-	sprintf(tmp,"!%s\r",left.c_str());
-	n = write(serial_fd, tmp, 6);
-	sprintf(tmp,"!%s\r",right.c_str());
-	n = write(serial_fd, tmp, 6);
-	if (n < 0){
-  		fputs("write() of 4 bytes failed!\n", stderr);
-  	}
+	if(msg->data.length() == 6){
+		std::string left = msg->data.substr(0,3);
+		std::string right = msg->data.substr(3,3);
+		char tmp[6];
+		sprintf(tmp,"!%s\r",left.c_str());
+		n = write(serial_fd, tmp, 6);
+		sprintf(tmp,"!%s\r",right.c_str());
+		n = write(serial_fd, tmp, 6);
+		if (n < 0){
+  			fputs("write() of 4 bytes failed!\n", stderr);
+  		}
+	}
 }
 
 int main(int argc, char **argv){

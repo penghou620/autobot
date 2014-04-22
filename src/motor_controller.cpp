@@ -8,9 +8,6 @@ ros::Subscriber head_sub;
 ros::Publisher cmd_vel_pub;
 
 void head_callback(const geometry_msgs::Point::ConstPtr& msg){
-	//printf("Head X:%f\n",msg->x);
-	//printf("Head Y:%f\n",msg->y);
-	//printf("Head Z:%f\n",msg->z);
 	float theta = atan2(-1*(msg->x),msg->z);//our model has the opposite coordinates frame with the kinect frame, so negative the x value
 	printf("theta:%f\n",theta);
 	printf("head x %f\n",msg->x);
@@ -44,7 +41,7 @@ void head_callback(const geometry_msgs::Point::ConstPtr& msg){
 				}else{
 					sprintf(tmp,"A%xB%x",left_vel, right_vel);
 				}
-				printf("tmp %s\n",tmp);
+				printf("Velocity Command %s\n",tmp);
 				std::string tmp2(tmp);
 				result.data = tmp2;
 			} else {
