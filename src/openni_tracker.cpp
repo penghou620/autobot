@@ -22,10 +22,14 @@ xn::UserGenerator  g_UserGenerator;
 XnBool g_bNeedPose   = FALSE;
 XnChar g_strPose[20] = "";
 
+std_msgs::String gui_msg;
 ros::Publisher head_pub;
+ros::Publisher gui_pub;
 ros::Publisher gesture_pub;
 void XN_CALLBACK_TYPE User_NewUser(xn::UserGenerator& generator, XnUserID nId, void* pCookie) {
 	ROS_INFO("New User %d", nId);
+	gui_msg.data = "Psi Pose";
+	gui_pub.publish(gui_msg);
 
 	if (g_bNeedPose)
 		g_UserGenerator.GetPoseDetectionCap().StartPoseDetection(g_strPose, nId);
@@ -35,19 +39,32 @@ void XN_CALLBACK_TYPE User_NewUser(xn::UserGenerator& generator, XnUserID nId, v
 
 void XN_CALLBACK_TYPE User_LostUser(xn::UserGenerator& generator, XnUserID nId, void* pCookie) {
 	ROS_INFO("Lost user %d", nId);
+	gui_msg.data = "Lost You";
+	gui_pub.publish(gui_msg);
+
 }
 
 void XN_CALLBACK_TYPE UserCalibration_CalibrationStart(xn::SkeletonCapability& capability, XnUserID nId, void* pCookie) {
 	ROS_INFO("Calibration started for user %d", nId);
+	gui_msg.data = "Calibration started";
+	gui_pub.publish(gui_msg);
+
 }
 
 void XN_CALLBACK_TYPE UserCalibration_CalibrationEnd(xn::SkeletonCapability& capability, XnUserID nId, XnBool bSuccess, void* pCookie) {
 	if (bSuccess) {
 		ROS_INFO("Calibration complete, start tracking user %d", nId);
+		gui_msg.data = "Calibration complete";
+		gui_pub.publish(gui_msg);
+
 		g_UserGenerator.GetSkeletonCap().StartTracking(nId);
 	}
 	else {
 		ROS_INFO("Calibration failed for user %d", nId);
+
+		gui_msg.data = "Calibration failed";
+		gui_pub.publish(gui_msg);
+
 		if (g_bNeedPose)
 			g_UserGenerator.GetPoseDetectionCap().StartPoseDetection(g_strPose, nId);
 		else
@@ -196,10 +213,14 @@ int CheckPose(XnUserID nId){
 	if(angle_left_xy > 1.2 && angle_right_xy > 1.2 && angle_left_yz > 1.2 && angle_right_yz > 1.2){//two arm straight up
 		printf("start\n");
 		gesture_result.data = "start";
+		gui_msg.data = "Start Tracking";
+		gui_pub.publish(gui_msg);
 	}
 	else if(fabs(angle_left_yz) < 0.4 && fabs(angle_right_yz) < 0.4 && (fabs(angle_left_xz) - 3) < 0.3 && (fabs(angle_right_xz)-3) < 0.3){//push or stop gesture, two arms straight ahead.
 		printf("stop\n");
 		gesture_result.data = "stop";
+		gui_msg.data = "Stop Tracking";
+		gui_pub.publish(gui_msg);
 	}
 	else if(fabs(angle_left_xy -3) < 0.3 && fabs(angle_right_xy) < 0.3 && fabs(angle_left_xz) > 1.2 && fabs(angle_right_xz) > 1.2){//upper arm in horizontal direction
 	}
@@ -235,6 +256,7 @@ int main(int argc, char **argv) {
 	ros::NodeHandle nh;
 	head_pub = nh.advertise<geometry_msgs::Point>("head",1000);
 	gesture_pub = nh.advertise<std_msgs::String>("gesture",1000);
+	gui_pub = nh.advertise<std_msgs::String>("gui",1);
     string configFilename = ros::package::getPath("openni_tracker") + "/openni_tracker.xml";
     XnStatus nRetVal = g_Context.InitFromXmlFile(configFilename.c_str());
     CHECK_RC(nRetVal, "InitFromXml");
@@ -277,7 +299,7 @@ int main(int argc, char **argv) {
 	nRetVal = g_Context.StartGeneratingAll();
 	CHECK_RC(nRetVal, "StartGenerating");
 
-	ros::Rate r(30);
+	ros::Rate r(60);
 
     ros::NodeHandle pnh("~");
     string frame_id("openni_depth_frame");
