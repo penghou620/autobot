@@ -2,4 +2,6 @@
 	<node name="serial" pkg="autobot" type="serial"/>
 	<node name="openni_tracker" pkg="autobot" type="openni_tracker"/>
 	<node name="motor_controller" pkg="autobot" type="motor_controller"/>
+	<node name="joy_controller" pkg="autobot" type="joy_controller"/>
+	<node name="joy_node" pkg="joy" type="joy_node"/>
 </launch>
