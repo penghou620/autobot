@@ -7,6 +7,32 @@
 #include <string>
 #define MESSAGE   "Underworld live 17.03.04"
 
+// class gui_message{
+// private:
+//   ros::Subscriber gui_sub;
+// public:
+//   std::string gui_msg = "";
+//   gui_message(){
+
+//   }
+//   void init(){
+//     ros::NodeHandle nh;
+//     gui_sub = nh.subscribe("gui",1,gui_callback);
+//   }
+//   void gui_callback(const std_msgs::String::ConstPtr& msg){
+//     gui_msg = msg->data;
+//   }
+//   std::string getMsg(){
+//     ros::spinOnce();
+//   }
+// };
+ros::Subscriber gui_sub;
+std::string gui_msg = "Hello There";
+char h = 0;
+void gui_callback(const std_msgs::String::ConstPtr& msg){
+  gui_msg = msg->data;
+  printf("new message %s\n",gui_msg.c_str());
+}
 void output(int x, int y, float r, float g, float b, void* font, char *string)
 {
   glColor3f( r, g, b );
@@ -17,46 +43,54 @@ void output(int x, int y, float r, float g, float b, void* font, char *string)
     glutBitmapCharacter(font, string[i]);
   }
 }
-void output2(GLfloat x, GLfloat y, char *text)
-{
- char *p;
 
- glPushMatrix();
- glTranslatef(x, y, 0);
- for (p = text; *p; p++)
-   glutStrokeCharacter(GLUT_STROKE_ROMAN, *p);
- glPopMatrix();
+void strokeString(const char *str){
+  int i = 0;
+  for(i = 0; i < (int)strlen(str); i++){
+    glutStrokeCharacter(GLUT_STROKE_ROMAN, str[i]);
+    if(i%10 == 0 && i > 0){
+      glTranslatef(-840,-150,0);
+    }
+  }
+  
+}
+void glutIdle(){
+  ros::spinOnce();
+  glutPostRedisplay();
 }
 void glutDisplay(){
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+  glClearColor(0.5f,0.5f,0.5f,0);
+
   glEnable(GL_DEPTH_TEST);
 
   glMatrixMode(GL_PROJECTION);
   glLoadIdentity();
   glOrtho(-2.0, 2.0, -2.0, 2.0, -2.0, 500.0);
-
   glMatrixMode(GL_MODELVIEW);
   glLoadIdentity();
   // gluLookAt(2, 2, 2, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
-  glScalef(.007,.007,.007);
-  glRotatef(0, 0, 1, 0);
-  glRotatef(0, 0, 0, 1);
-  glRotatef(0, 1, 0, 0);
-  glTranslatef(-300, 0, 0);
+  glScalef(.004,.004,.004);
+  // glRotatef(0, 0, 1, 0);
+  // glRotatef(0, 0, 0, 1);
+  // glRotatef(0, 1, 0, 0);
+  // glTranslatef(-450, 200, 0);
+  glLineWidth(3.0);
     
   glColor3f(1,1,1);
-  glutStrokeCharacter(GLUT_STROKE_ROMAN, 'H');
-  glutStrokeCharacter(GLUT_STROKE_ROMAN, 'e');
-  glutStrokeCharacter(GLUT_STROKE_ROMAN, 'l');
-  glutStrokeCharacter(GLUT_STROKE_ROMAN, 'l');
-  glutStrokeCharacter(GLUT_STROKE_ROMAN, 'o');
+  strokeString(gui_msg.c_str());
+  // strokeString("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'e');
+  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'l');
+  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'l');
+  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'o');
   
-  glutStrokeCharacter(GLUT_STROKE_ROMAN, 'W');
-  glutStrokeCharacter(GLUT_STROKE_ROMAN, 'o');
-  glutStrokeCharacter(GLUT_STROKE_ROMAN, 'r');
-  glutStrokeCharacter(GLUT_STROKE_ROMAN, 'l');
-  glutStrokeCharacter(GLUT_STROKE_ROMAN, 'd');
-  glutStrokeCharacter(GLUT_STROKE_ROMAN, '!');
+  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'W');
+  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'o');
+  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'r');
+  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'l');
+  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'd');
+  // glutStrokeCharacter(GLUT_STROKE_ROMAN, '!');
         
   glutSwapBuffers();
 
@@ -88,13 +122,25 @@ void glutDisplay(){
   // glFlush();
 }
 int main(int argc, char** argv){
+    ros::init(argc, argv, "gui");
+    ros::NodeHandle nh;
+    gui_sub = nh.subscribe("gui",1,gui_callback);
+    
+
    glutInitDisplayMode(GLUT_DEPTH | GLUT_SINGLE | GLUT_RGBA);
    glutInitWindowPosition( 0, 0 );
-   glutInitWindowSize( 1000, 1050 );
+   glutInitWindowSize( 1000, 1000 );
    //glClearColor(1.0, 1.0, 1.0, 1.0);
    glutInit( &argc, argv );
    glutCreateWindow("GLUT bitmap font example");
    glutDisplayFunc(glutDisplay);
+   glutIdleFunc(glutIdle);
    glutMainLoop();
+
+   // ros::Rate loop_rate(60);
+   //  while(ros::ok()){
+   //    ros::spinOnce();
+   //    loop_rate.sleep();
+   //  }
    return 0;
 }
