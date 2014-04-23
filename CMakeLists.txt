@@ -22,7 +22,7 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 #rosbuild_gensrv()
 
 include(FindPkgConfig)
-pkg_check_modules(OPENNI libopenni)
+pkg_check_modules(OPENNI libopenni glut)
 
 include_directories(${OPENNI_INCLUDEDIR} /usr/include/nite)
 
@@ -36,3 +36,5 @@ rosbuild_add_executable(motor_controller src/motor_controller.cpp)
 rosbuild_add_executable(joy_controller src/joy_controller.cpp)
 rosbuild_add_executable(openni_tracker src/openni_tracker.cpp)
 target_link_libraries(openni_tracker ${OPENNI_LIBRARIES})
+rosbuild_add_executable(gui src/gui.cpp)
+target_link_libraries(gui glut)
