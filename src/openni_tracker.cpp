@@ -197,7 +197,7 @@ int CheckPose(XnUserID nId){
 		printf("start\n");
 		gesture_result.data = "start";
 	}
-	else if(fabs(angle_left_yz) < 0.4 && fabs(angle_right_yz) < 0.4 && fabs(angle_left_xz + 3) < 0.3 && fabs(angle_right_xz+3) < 0.3){//push or stop gesture, two arms straight ahead.
+	else if(fabs(angle_left_yz) < 0.4 && fabs(angle_right_yz) < 0.4 && (fabs(angle_left_xz) - 3) < 0.3 && (fabs(angle_right_xz)-3) < 0.3){//push or stop gesture, two arms straight ahead.
 		printf("stop\n");
 		gesture_result.data = "stop";
 	}
