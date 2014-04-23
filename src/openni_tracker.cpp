@@ -141,9 +141,11 @@ int CheckPose(XnUserID nId){
 	int NOT_IN_POSE = 0;
 	int IN_POSE_FOR_LITTLE_TIME = 1;
     XnSkeletonJointPosition leftHand;
-    XnSkeletonJointPosition rightHand;
     XnSkeletonJointPosition leftElbow;
+    XnSkeletonJointPosition leftShoulder;
+    XnSkeletonJointPosition rightHand;
     XnSkeletonJointPosition rightElbow;
+    XnSkeletonJointPosition rightShoulder;
 	XnSkeletonJointPosition head;
     xn::SkeletonCapability skeletonCap = g_UserGenerator.GetSkeletonCap();
 
@@ -156,24 +158,50 @@ int CheckPose(XnUserID nId){
     skeletonCap.GetSkeletonJointPosition(nId,XN_SKEL_RIGHT_HAND, rightHand);
     skeletonCap.GetSkeletonJointPosition(nId,XN_SKEL_LEFT_ELBOW, leftElbow);
     skeletonCap.GetSkeletonJointPosition(nId,XN_SKEL_RIGHT_ELBOW, rightElbow);
+    skeletonCap.GetSkeletonJointPosition(nId,XN_SKEL_LEFT_SHOULDER, leftShoulder);
+    skeletonCap.GetSkeletonJointPosition(nId,XN_SKEL_RIGHT_SHOULDER, rightShoulder);
 
-	float xDist = rightHand.position.X - rightElbow.position.X;
-	float yDist = rightHand.position.Y - rightElbow.position.Y;
-	float angle = atan2(yDist, xDist);	
-	printf("angle:%f\n",angle);
-	//for some reason, the lefthand store the data of my right hand
-	//printf("Left Hand X:%f\n",leftHand.position.X);
-	//printf("Left Hand Y:%f\n",leftHand.position.Y);
-	//printf("Left Hand Z:%f\n",leftHand.position.Z);
-	//printf("Left Hand X:%f\n",leftElbow.position.X);
-	//printf("Left Hand Y:%f\n",leftElbow.position.Y);
-	//printf("Left Hand Z:%f\n",leftElbow.position.Z);
+	float xDist_right = rightElbow.position.X - rightShoulder.position.X;//actually left arm when facing the robot.
+	float yDist_right = rightElbow.position.Y - rightShoulder.position.Y;
+	float angle_right_xy = atan2(yDist_right, xDist_right);	
+	printf("right angle angle xy:%f\n",angle_right_xy);
+
+	float xDist_left = leftElbow.position.X - leftShoulder.position.X;//actually right arm when facing the robot.
+	float yDist_left = leftElbow.position.Y - leftShoulder.position.Y;
+	float angle_left_xy = atan2(yDist_left, xDist_left);	
+	printf("left angle angle xy:%f\n",angle_left_xy);
+
+	float zDist_right_yz = rightShoulder.position.Z - rightElbow.position.Z;//actually left arm when facing the robot.
+	float yDist_right_yz = rightElbow.position.Y - rightShoulder.position.Y;
+	float angle_right_yz = atan2(yDist_right_yz, zDist_right_yz);	
+	printf("right arm angle yz:%f\n",angle_right_yz);
+
+	float zDist_left_yz = leftShoulder.position.Z - leftElbow.position.Z;//actually left arm when facing the robot.
+	float yDist_left_yz = leftElbow.position.Y - leftShoulder.position.Y;
+	float angle_left_yz = atan2(yDist_left_yz, zDist_left_yz);	
+	printf("left arm angle yz:%f\n",angle_left_yz);
+
+	float xDist_right_xz = rightElbow.position.X - rightShoulder.position.X ;//actually left arm when facing the robot.
+	float zDist_right_xz = rightElbow.position.Z - rightShoulder.position.Z;
+	float angle_right_xz = atan2(xDist_right_xz, zDist_right_xz);	
+	printf("right arm angle xz:%f\n",angle_right_xz);
+
+	float xDist_left_xz = leftElbow.position.X - leftShoulder.position.X;//actually left arm when facing the robot.
+	float zDist_left_xz = leftElbow.position.Z - leftShoulder.position.Z;
+	float angle_left_xz = atan2(xDist_left_xz, zDist_left_xz);	
+	printf("left arm angle xz:%f\n",angle_left_xz);
+
 
 	std_msgs::String gesture_result;	
-	if(fabs(angle) < 0.08){
+	if(angle_left_xy > 1.2 && angle_right_xy > 1.2 && angle_left_yz > 1.2 && angle_right_yz > 1.2){//two arm straight up
+		printf("start\n");
 		gesture_result.data = "start";
-	}else if(angle < 1.66 || angle > 1.48 ){//1.66rad = 95deg;1.48rad=85deg
+	}
+	else if(fabs(angle_left_yz) < 0.4 && fabs(angle_right_yz) < 0.4 && fabs(angle_left_xz + 3) < 0.3 && fabs(angle_right_xz+3) < 0.3){//push or stop gesture, two arms straight ahead.
+		printf("stop\n");
 		gesture_result.data = "stop";
+	}
+	else if(fabs(angle_left_xy -3) < 0.3 && fabs(angle_right_xy) < 0.3 && fabs(angle_left_xz) > 1.2 && fabs(angle_right_xz) > 1.2){//upper arm in horizontal direction
 	}
 	gesture_pub.publish(gesture_result);
 
