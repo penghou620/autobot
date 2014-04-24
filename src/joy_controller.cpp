@@ -8,7 +8,10 @@
 ros::Subscriber joy_sub;
 ros::Publisher cmd_vel_pub;
 ros::Publisher estop_pub;
+ros::Publisher gui_pub;
+ros::Publisher mode_pub;
 int prev_button_7 = 0;
+int manual_mode = 0;
 
 void joy_callback(const sensor_msgs::Joy &joy){
 	std_msgs::String result;
@@ -22,17 +25,21 @@ void joy_callback(const sensor_msgs::Joy &joy){
 	float axe_1 = (joy.axes[1]);//forward or backward
 	float axe_3 = (joy.axes[3]);//turn left or right
 	int Vmax = 0x1f;
-	//printf("axe_1:%f\n",axe_1);
-	//printf("velocity:%f\n",(Vmax*axe_1));
-	//printf("velocity:%x\n",(int)(Vmax*axe_1));
-
-	//printf("joy axe_1:%f\n",joy.axes[1]);
-	//printf("axe_1:%d\n",axe_1);
-	//printf("joy axe_3:%f\n",joy.axes[3]);
-	//printf("axe_3:%d\n",axe_3);
 	char command_string[7];
-	if(button_1 == 1){
-		prev_button_7 = 1;
+
+	std_msgs::String mode;
+	if(button_1 == 1 && manual_mode == 0){
+		manual_mode = 1;	
+		mode.data = "Mode:Manual";
+		gui_pub.publish(mode);
+		printf("manual mode\n");
+	}else if(button_1 == 1 && manual_mode == 1){
+		manual_mode = 0;	
+		printf("auto mode\n");
+		mode.data = "Mode:Auto";
+		gui_pub.publish(mode);
+	}
+	if(manual_mode == 1){
 		if(axe_1 > 0.0){
 			int velocity = (int)(Vmax * axe_1);
 			if(velocity < 16){
@@ -67,13 +74,14 @@ void joy_callback(const sensor_msgs::Joy &joy){
 			result.data = "A00B00";
 		}
 		cmd_vel_pub.publish(result);
-	}else{
-		if(prev_button_7 == 1){
-			prev_button_7 = 0;
-			result.data = "A00B00";
-			cmd_vel_pub.publish(result);
-		}
 	}
+//	else{
+//		if(prev_button_7 == 1){
+//			prev_button_7 = 0;
+//			result.data = "A00B00";
+//			cmd_vel_pub.publish(result);
+//		}
+//	}
 }
 int main(int argc, char **argv){
 	ros::init(argc, argv, "joy_controller");
@@ -81,6 +89,8 @@ int main(int argc, char **argv){
 	joy_sub = nh.subscribe("joy",1000,joy_callback);
 	cmd_vel_pub = nh.advertise<std_msgs::String>("cmd_vel",1);
 	estop_pub = nh.advertise<std_msgs::String>("estop",1);
+	gui_pub = nh.advertise<std_msgs::String>("gui",1);
+	mode_pub = nh.advertise<std_msgs::String>("mode",1);
 	ros::spin();
 	return 0;
 }
