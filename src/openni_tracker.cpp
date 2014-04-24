@@ -236,7 +236,6 @@ int CheckPose(XnUserID nId){
 	}
 	gesture_pub.publish(gesture_result);
 
-	ROS_INFO("User %d", nId);
 	skeletonCap.GetSkeletonJointPosition(nId,XN_SKEL_HEAD,head);
 	geometry_msgs::Point head_coordinates;
 	head_coordinates.x = head.position.X;
