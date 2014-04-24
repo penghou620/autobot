@@ -28,8 +28,10 @@
 // };
 ros::Subscriber gui_sub;
 std::string gui_msg = "Hello There";
-std::string gui_mode_msg = "";
-std::string gui_gest_msg = "Gest: Calibration fail";
+std::string gui_mode_msg = "Mode:Manual";
+std::string gui_gest_msg = "Gest:I stop tracking you";
+std::string gui_logo_msg_1 = "Logo:Georgia";
+std::string gui_logo_msg_2 = "Logo:Tech";
 char h = 0;
 void gui_callback(const std_msgs::String::ConstPtr& msg){
   std::string msg_type = msg->data.substr(0,4);
@@ -55,6 +57,11 @@ void output(int x, int y, float r, float g, float b, void* font, char *string)
 
 void strokeString(GLfloat x, GLfloat y, const char *str){
 	
+	if(strcmp(str,"I Stop Tracking You") == 0){
+		glColor3f(1.0f,0.0f,0.0f);
+	}else{
+		//glColor3f(1.0f,0.0f,0.0f);
+	}
 	glTranslatef(x,y,0);
   	int i = 0;
   	for(i = 0; i < (int)strlen(str); i++){
@@ -71,7 +78,8 @@ void glutIdle(){
 }
 void glutDisplay(){
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-  glClearColor(0.5f,0.5f,0.5f,0);
+  glClearColor(0.1f,0.23f,0.367f,0);
+  //glClearColor(1.0f,1.0f,1.0f,0);
 
   glEnable(GL_DEPTH_TEST);
 
@@ -86,14 +94,28 @@ void glutDisplay(){
   // glRotatef(0, 0, 0, 1);
   // glRotatef(0, 1, 0, 0);
   // glTranslatef(-450, 200, 0);
-  glLineWidth(1.0);
-  glColor3f(1,1,1);
+  glLineWidth(2.0);
+  //glColor3f(0.7,0.7,0.7);
+  glColor3f(1.0f,1.0f,1.0f);
   strokeString(-1800.0f,1500.0f,gui_mode_msg.c_str());
 
   glLoadIdentity();
   glScalef(.002,.002,.002);
   glLineWidth(3.0);
-  strokeString(-1000,0,gui_gest_msg.substr(5).c_str());
+  strokeString(-900.0f,0.0f,gui_gest_msg.substr(5).c_str());
+
+  glLoadIdentity();
+  glScalef(.001,.001,.001);
+  glColor3f(0.93f,0.695f,0.066f);
+  glLineWidth(2.0);
+  strokeString(1300.0f,1500.0f,gui_logo_msg_1.substr(5).c_str());
+
+  glLoadIdentity();
+  glColor3f(0.93f,0.695f,0.066f);
+  glScalef(.001,.001,.001);
+  glLineWidth(2.0);
+  strokeString(1470.0f,1350.0f,gui_logo_msg_2.substr(5).c_str());
+
   glutSwapBuffers();
 
    //  glClear(GL_COLOR_BUFFER_BIT);
