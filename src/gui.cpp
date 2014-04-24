@@ -82,18 +82,18 @@ void glutDisplay(){
   glMatrixMode(GL_MODELVIEW);
   glLoadIdentity();
   // gluLookAt(2, 2, 2, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
-  glScalef(.002,.002,.002);
+  glScalef(.001,.001,.001);
   // glRotatef(0, 0, 1, 0);
   // glRotatef(0, 0, 0, 1);
   // glRotatef(0, 1, 0, 0);
   // glTranslatef(-450, 200, 0);
-  glLineWidth(3.0);
+  glLineWidth(1.0);
   glColor3f(1,1,1);
   strokeString(-900,800,gui_mode_msg.c_str());
 
   glLoadIdentity();
-  glScalef(.004,.004,.004);
-  glLineWidth(2.0);
+  glScalef(.002,.002,.002);
+  glLineWidth(3.0);
   strokeString(-550,0,gui_gest_msg.substr(5).c_str());
   glutSwapBuffers();
 
