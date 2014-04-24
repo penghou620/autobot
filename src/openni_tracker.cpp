@@ -29,6 +29,10 @@ ros::Publisher gesture_pub;
 ros::Publisher estop_pub;
 void XN_CALLBACK_TYPE User_NewUser(xn::UserGenerator& generator, XnUserID nId, void* pCookie) {
 	ROS_INFO("New User %d", nId);
+	std_msgs::String estop;
+	estop.data = "clear";
+	estop_pub.publish(estop);
+
 	gui_msg.data = "Gest: Hello! Please do a Psi Pose to let me remember you";
 	gui_pub.publish(gui_msg);
 
