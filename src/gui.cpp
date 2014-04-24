@@ -29,7 +29,7 @@
 ros::Subscriber gui_sub;
 std::string gui_msg = "Hello There";
 std::string gui_mode_msg = "";
-std::string gui_gest_msg = "Gest: Psi Pose";
+std::string gui_gest_msg = "Gest: Calibration fail";
 char h = 0;
 void gui_callback(const std_msgs::String::ConstPtr& msg){
   std::string msg_type = msg->data.substr(0,4);
@@ -41,7 +41,6 @@ void gui_callback(const std_msgs::String::ConstPtr& msg){
   else if(strcmp(msg_type.c_str(),"Gest") == 0){
   	gui_gest_msg = msg->data;
   }
-
 }
 void output(int x, int y, float r, float g, float b, void* font, char *string)
 {
@@ -54,7 +53,7 @@ void output(int x, int y, float r, float g, float b, void* font, char *string)
   }
 }
 
-void strokeString(int x, int y, const char *str){
+void strokeString(GLfloat x, GLfloat y, const char *str){
 	
 	glTranslatef(x,y,0);
   	int i = 0;
@@ -89,12 +88,12 @@ void glutDisplay(){
   // glTranslatef(-450, 200, 0);
   glLineWidth(1.0);
   glColor3f(1,1,1);
-  strokeString(-900,800,gui_mode_msg.c_str());
+  strokeString(-1800.0f,1500.0f,gui_mode_msg.c_str());
 
   glLoadIdentity();
   glScalef(.002,.002,.002);
   glLineWidth(3.0);
-  strokeString(-550,0,gui_gest_msg.substr(5).c_str());
+  strokeString(-1000,0,gui_gest_msg.substr(5).c_str());
   glutSwapBuffers();
 
    //  glClear(GL_COLOR_BUFFER_BIT);
@@ -132,7 +131,7 @@ int main(int argc, char** argv){
 
    glutInitDisplayMode(GLUT_DEPTH | GLUT_SINGLE | GLUT_RGBA);
    glutInitWindowPosition( 0, 0 );
-   glutInitWindowSize( 1000, 1000 );
+   glutInitWindowSize( 1280, 500);
    //glClearColor(1.0, 1.0, 1.0, 1.0);
    glutInit( &argc, argv );
    glutCreateWindow("GLUT bitmap font example");
