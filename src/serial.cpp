@@ -19,6 +19,7 @@
 
 int serial_fd = 0;
 int n = 0;
+int estop = 0;
 
 int SerialOpen(){
    serial_fd = open("/dev/ttyUSB0", O_RDWR | O_NOCTTY | O_NDELAY);
@@ -30,8 +31,51 @@ int SerialOpen(){
    }
 }
 
+void estop_callback(const std_msgs::String::ConstPtr& msg){
+	if(!(strcmp(msg->data.c_str(), "set"))){
+		estop = 1;
+		printf("Estop Set\n"); 
+		int loop_index = 0;
+		for(loop_index = 0; loop_index < 2; loop_index++){
+			std_msgs::String tmp_msg;
+			tmp_msg.data = "A00B00";
+			std::string left = tmp_msg.data.substr(0,3);
+			std::string right = tmp_msg.data.substr(3,3);
+			char tmp[6];
+			sprintf(tmp,"!%s\r",left.c_str());
+			n = write(serial_fd, tmp, 6);
+			sprintf(tmp,"!%s\r",right.c_str());
+			n = write(serial_fd, tmp, 6);
+			if (n < 0){
+  				fputs("Estop: write() of 4 bytes failed!\n", stderr);
+  			}
+		}
+
+	}else{
+		estop = 0;
+		printf("Estop Clear\n"); 
+	}
+}
 void cmd_vel_callback(const std_msgs::String::ConstPtr& msg){
-	if(msg->data.length() == 6){
+	printf("cmd_vel command string %s\n",msg->data.c_str());
+	if(estop == 1){
+		int loop_index = 0;
+		for(loop_index = 0; loop_index < 2; loop_index++){
+			std_msgs::String tmp_msg;
+			tmp_msg.data = "A00B00";
+			std::string left = tmp_msg.data.substr(0,3);
+			std::string right = tmp_msg.data.substr(3,3);
+			char tmp[6];
+			sprintf(tmp,"!%s\r",left.c_str());
+			n = write(serial_fd, tmp, 6);
+			sprintf(tmp,"!%s\r",right.c_str());
+			n = write(serial_fd, tmp, 6);
+			if (n < 0){
+  				fputs("Estop: write() of 4 bytes failed!\n", stderr);
+  			}
+		}
+	}
+	else if(msg->data.length() == 6){
 		std::string left = msg->data.substr(0,3);
 		std::string right = msg->data.substr(3,3);
 		char tmp[6];
@@ -54,7 +98,13 @@ int main(int argc, char **argv){
   ros::NodeHandle nh;
 
   ros::Subscriber cmd_vel_sub = nh.subscribe("cmd_vel",1000,cmd_vel_callback);
+  ros::Subscriber estop_sub = nh.subscribe("estop",1,estop_callback);
 
-  ros::spin();
+  //ros::spin();
+	ros::Rate loop_rate(60);
+	while(ros::ok()){
+		ros::spinOnce();
+		loop_rate.sleep();
+	}
   return 0;
 }
