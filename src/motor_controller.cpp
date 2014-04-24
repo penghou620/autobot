@@ -37,7 +37,7 @@ void head_callback(const geometry_msgs::Point::ConstPtr& msg){
 			result.data = "A00B00";
 			printf("velocity A00 B00\n");
 		} else {
-			if(msg->z <= 1500){
+			if(msg->z <= 1200){
 				printf("in the 1.5m\n");
 				result.data = "A00B00";
 				printf("velocity A00 B00\n");
@@ -46,7 +46,7 @@ void head_callback(const geometry_msgs::Point::ConstPtr& msg){
 					printf("Turn\n");
 					float k=10.0;
 					//float Vmax = 127.0;
-					float Vmax = 15.0;
+					float Vmax = 20.0;
 					int left_vel = -1 * k*theta + Vmax/2;
 					int right_vel = Vmax/2 + k*theta;
 					char tmp[7];
@@ -64,7 +64,7 @@ void head_callback(const geometry_msgs::Point::ConstPtr& msg){
 					result.data = tmp2;
 				} else {
 					printf("Move Straight\n");
-					result.data = "A15B15";
+					result.data = "A10B10";
 					printf("velocity A10 B10\n");
 				}
 			}
