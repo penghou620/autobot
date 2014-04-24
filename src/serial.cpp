@@ -58,24 +58,25 @@ void estop_callback(const std_msgs::String::ConstPtr& msg){
 }
 void cmd_vel_callback(const std_msgs::String::ConstPtr& msg){
 	printf("cmd_vel command string %s\n",msg->data.c_str());
-	if(estop == 1){
-		int loop_index = 0;
-		for(loop_index = 0; loop_index < 2; loop_index++){
-			std_msgs::String tmp_msg;
-			tmp_msg.data = "A00B00";
-			std::string left = tmp_msg.data.substr(0,3);
-			std::string right = tmp_msg.data.substr(3,3);
-			char tmp[6];
-			sprintf(tmp,"!%s\r",left.c_str());
-			n = write(serial_fd, tmp, 6);
-			sprintf(tmp,"!%s\r",right.c_str());
-			n = write(serial_fd, tmp, 6);
-			if (n < 0){
-  				fputs("Estop: write() of 4 bytes failed!\n", stderr);
-  			}
-		}
-	}
-	else if(msg->data.length() == 6){
+	//if(estop == 1){
+	//	int loop_index = 0;
+	//	for(loop_index = 0; loop_index < 2; loop_index++){
+	//		std_msgs::String tmp_msg;
+	//		tmp_msg.data = "A00B00";
+	//		std::string left = tmp_msg.data.substr(0,3);
+	//		std::string right = tmp_msg.data.substr(3,3);
+	//		char tmp[6];
+	//		sprintf(tmp,"!%s\r",left.c_str());
+	//		n = write(serial_fd, tmp, 6);
+	//		sprintf(tmp,"!%s\r",right.c_str());
+	//		n = write(serial_fd, tmp, 6);
+	//		if (n < 0){
+  	//			fputs("Estop: write() of 4 bytes failed!\n", stderr);
+  	//		}
+	//	}
+	//}
+	//else 
+	if(msg->data.length() == 6){
 		std::string left = msg->data.substr(0,3);
 		std::string right = msg->data.substr(3,3);
 		char tmp[6];
