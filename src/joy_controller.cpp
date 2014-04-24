@@ -31,13 +31,15 @@ void joy_callback(const sensor_msgs::Joy &joy){
 	if(button_1 == 1 && manual_mode == 0){
 		manual_mode = 1;	
 		mode.data = "Mode:Manual";
+		mode_pub.publish(mode);
 		gui_pub.publish(mode);
-		printf("manual mode\n");
+		printf("Manual mode\n");
 	}else if(button_1 == 1 && manual_mode == 1){
 		manual_mode = 0;	
-		printf("auto mode\n");
 		mode.data = "Mode:Auto";
+		mode_pub.publish(mode);
 		gui_pub.publish(mode);
+		printf("Auto mode\n");
 	}
 	if(manual_mode == 1){
 		if(axe_1 > 0.0){
