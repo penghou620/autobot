@@ -28,10 +28,20 @@
 // };
 ros::Subscriber gui_sub;
 std::string gui_msg = "Hello There";
+std::string gui_mode_msg = "";
+std::string gui_gest_msg = "Gest: Psi Pose";
 char h = 0;
 void gui_callback(const std_msgs::String::ConstPtr& msg){
-  gui_msg = msg->data;
-  printf("new message %s\n",gui_msg.c_str());
+  std::string msg_type = msg->data.substr(0,4);
+  printf("mode %s\n",msg_type.c_str());
+  printf("new message %s\n",msg->data.substr(5).c_str());
+  if(strcmp(msg_type.c_str(),"Mode") == 0){
+  	gui_mode_msg = msg->data;
+  }
+  else if(strcmp(msg_type.c_str(),"Gest") == 0){
+  	gui_gest_msg = msg->data;
+  }
+
 }
 void output(int x, int y, float r, float g, float b, void* font, char *string)
 {
@@ -44,14 +54,16 @@ void output(int x, int y, float r, float g, float b, void* font, char *string)
   }
 }
 
-void strokeString(const char *str){
-  int i = 0;
-  for(i = 0; i < (int)strlen(str); i++){
-    glutStrokeCharacter(GLUT_STROKE_ROMAN, str[i]);
-    if(i%10 == 0 && i > 0){
-      glTranslatef(-840,-150,0);
-    }
-  }
+void strokeString(int x, int y, const char *str){
+	
+	glTranslatef(x,y,0);
+  	int i = 0;
+  	for(i = 0; i < (int)strlen(str); i++){
+  	  glutStrokeCharacter(GLUT_STROKE_ROMAN, str[i]);
+  	 // if(i%10 == 0 && i > 0){
+  	 //   glTranslatef(-840,-150,0);
+  	 // }
+  	}
   
 }
 void glutIdle(){
@@ -70,28 +82,19 @@ void glutDisplay(){
   glMatrixMode(GL_MODELVIEW);
   glLoadIdentity();
   // gluLookAt(2, 2, 2, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
-  glScalef(.004,.004,.004);
+  glScalef(.002,.002,.002);
   // glRotatef(0, 0, 1, 0);
   // glRotatef(0, 0, 0, 1);
   // glRotatef(0, 1, 0, 0);
   // glTranslatef(-450, 200, 0);
   glLineWidth(3.0);
-    
   glColor3f(1,1,1);
-  strokeString(gui_msg.c_str());
-  // strokeString("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
-  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'e');
-  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'l');
-  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'l');
-  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'o');
-  
-  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'W');
-  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'o');
-  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'r');
-  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'l');
-  // glutStrokeCharacter(GLUT_STROKE_ROMAN, 'd');
-  // glutStrokeCharacter(GLUT_STROKE_ROMAN, '!');
-        
+  strokeString(-900,800,gui_mode_msg.c_str());
+
+  glLoadIdentity();
+  glScalef(.004,.004,.004);
+  glLineWidth(2.0);
+  strokeString(-550,0,gui_gest_msg.substr(5).c_str());
   glutSwapBuffers();
 
    //  glClear(GL_COLOR_BUFFER_BIT);
