@@ -33,7 +33,7 @@ void XN_CALLBACK_TYPE User_NewUser(xn::UserGenerator& generator, XnUserID nId, v
 	estop.data = "clear";
 	estop_pub.publish(estop);
 
-	gui_msg.data = "Gest: Hello! Please do a Psi Pose to let me remember you";
+	gui_msg.data = "Gest: Hello! Psi Pose";
 	gui_pub.publish(gui_msg);
 
 	if (g_bNeedPose)
