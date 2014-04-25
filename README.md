@@ -7,6 +7,6 @@ ROS package for AutoBot
 
 ROS Packages
 
-  openni_launch
+    openni_launch
   
-  skeleton_markers 
+    skeleton_markers 
