@@ -11,12 +11,21 @@ ros::Publisher estop_pub;
 ros::Publisher gui_pub;
 ros::Publisher mode_pub;
 int prev_button_7 = 0;
-int manual_mode = 0;
+int manual_mode = 1;
 
 void joy_callback(const sensor_msgs::Joy &joy){
 	std_msgs::String result;
 	int button_7 = (int)(joy.buttons[7]);
+	int button_8 = (int)(joy.buttons[8]);
+	if(button_8 == 1){
+		printf("estop button set\n");
+		std_msgs::String estop_set;
+		estop_set.data = "set";
+		estop_pub.publish(estop_set);
+	}
+
 	if(button_7 == 1){
+		printf("estop button clear\n");
 		std_msgs::String estop_clear;
 		estop_clear.data = "clear";
 		estop_pub.publish(estop_clear);
