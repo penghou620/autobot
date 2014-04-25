@@ -29,9 +29,10 @@
 ros::Subscriber gui_sub;
 std::string gui_msg = "Hello There";
 std::string gui_mode_msg = "Mode:Manual";
-std::string gui_gest_msg = "Gest:I stop tracking you";
+std::string gui_gest_msg = "Gest:Hello World!";
 std::string gui_logo_msg_1 = "Logo:Georgia";
 std::string gui_logo_msg_2 = "Logo:Tech";
+std::string gui_estop_msg = "Esto:Set";
 char h = 0;
 void gui_callback(const std_msgs::String::ConstPtr& msg){
   std::string msg_type = msg->data.substr(0,4);
@@ -42,6 +43,8 @@ void gui_callback(const std_msgs::String::ConstPtr& msg){
   }
   else if(strcmp(msg_type.c_str(),"Gest") == 0){
   	gui_gest_msg = msg->data;
+  }else if(strcmp(msg_type.c_str(),"Esto") == 0){
+	gui_estop_msg = msg->data;
   }
 }
 void output(int x, int y, float r, float g, float b, void* font, char *string)
@@ -115,6 +118,12 @@ void glutDisplay(){
   glScalef(.001,.001,.001);
   glLineWidth(2.0);
   strokeString(1470.0f,1350.0f,gui_logo_msg_2.substr(5).c_str());
+
+  glLoadIdentity();
+  glColor3f(1.0f,1.0f,1.0f);
+  glScalef(.001,.001,.001);
+  glLineWidth(2.0);
+  strokeString(1100.0f,-1500.0f,("ESTOP:"+gui_estop_msg.substr(5)).c_str());
 
   glutSwapBuffers();
 
