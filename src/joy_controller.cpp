@@ -30,20 +30,20 @@ void joy_callback(const sensor_msgs::Joy &joy){
 		estop_clear.data = "clear";
 		estop_pub.publish(estop_clear);
 	}
-	int button_1 = joy.buttons[5];
+	int button_5 = joy.buttons[5];
 	float axe_1 = (joy.axes[1]);//forward or backward
 	float axe_3 = (joy.axes[3]);//turn left or right
 	int Vmax = 0x1f;
 	char command_string[7];
 
 	std_msgs::String mode;
-	if(button_1 == 1 && manual_mode == 0){
+	if(button_5 == 1 && manual_mode == 0){
 		manual_mode = 1;	
 		mode.data = "Mode:Manual";
 		mode_pub.publish(mode);
 		gui_pub.publish(mode);
 		printf("Manual mode\n");
-	}else if(button_1 == 1 && manual_mode == 1){
+	}else if(button_5 == 1 && manual_mode == 1){
 		manual_mode = 0;	
 		mode.data = "Mode:Auto";
 		mode_pub.publish(mode);

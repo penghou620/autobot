@@ -21,21 +21,19 @@ xn::UserGenerator  g_UserGenerator;
 
 XnBool g_bNeedPose   = FALSE;
 XnChar g_strPose[20] = "";
-
 std_msgs::String gui_msg;
+int tracking_user = 0;
+int lost_flag = 0;
 ros::Publisher head_pub;
 ros::Publisher gui_pub;
 ros::Publisher gesture_pub;
 ros::Publisher estop_pub;
 void XN_CALLBACK_TYPE User_NewUser(xn::UserGenerator& generator, XnUserID nId, void* pCookie) {
 	ROS_INFO("New User %d", nId);
-	std_msgs::String estop;
-	estop.data = "clear";
-	estop_pub.publish(estop);
-
-	gui_msg.data = "Gest: Hello! Psi Pose";
-	gui_pub.publish(gui_msg);
-
+	if(tracking_user == 0){
+		gui_msg.data = "Gest: Hello! Try a Psi Pose";
+		gui_pub.publish(gui_msg);
+	}
 	if (g_bNeedPose)
 		g_UserGenerator.GetPoseDetectionCap().StartPoseDetection(g_strPose, nId);
 	else
@@ -44,15 +42,18 @@ void XN_CALLBACK_TYPE User_NewUser(xn::UserGenerator& generator, XnUserID nId, v
 
 void XN_CALLBACK_TYPE User_LostUser(xn::UserGenerator& generator, XnUserID nId, void* pCookie) {
 	ROS_INFO("Lost user %d", nId);
-	std_msgs::String estop;
-	estop.data = "set";
-	estop_pub.publish(estop);
-	gui_msg.data = "Gest:Sorry. I Lost You";
-	gui_pub.publish(gui_msg);
+	if(tracking_user == nId){
+		tracking_user = 0;
+		std_msgs::String estop;
+		estop.data = "set";
+		estop_pub.publish(estop);
+		gui_msg.data = "Gest:Sorry. I Lost You";
+		gui_pub.publish(gui_msg);
+	}
 }
 
 void XN_CALLBACK_TYPE User_ReEnter(xn::UserGenerator& generator, XnUserID nId, void* pCookie){
-	printf("ReEnter\n");
+	//printf("ReEnter\n");
 }
 
 void XN_CALLBACK_TYPE UserCalibration_CalibrationStart(xn::SkeletonCapability& capability, XnUserID nId, void* pCookie) {
@@ -63,7 +64,15 @@ void XN_CALLBACK_TYPE UserCalibration_CalibrationStart(xn::SkeletonCapability& c
 
 void XN_CALLBACK_TYPE UserCalibration_CalibrationEnd(xn::SkeletonCapability& capability, XnUserID nId, XnBool bSuccess, void* pCookie) {
 	if (bSuccess) {
-		ROS_INFO("Calibration complete, start tracking user %d", nId);
+		ROS_INFO("Calibration complete for user %d", nId);
+		ROS_INFO("tracking user %d", tracking_user);
+		if(tracking_user == 0){
+			tracking_user = nId;
+			std_msgs::String estop;
+			estop.data = "clear";
+			estop_pub.publish(estop);
+		}
+
 		//gui_msg.data = "Gest:Calibration complete";
 		//gui_pub.publish(gui_msg);
 
@@ -196,7 +205,7 @@ int CheckPose(XnUserID nId){
 	float xDist_left = leftElbow.position.X - leftShoulder.position.X;//actually right arm when facing the robot.
 	float yDist_left = leftElbow.position.Y - leftShoulder.position.Y;
 	float angle_left_xy = atan2(yDist_left, xDist_left);	
-	printf("left angle angle xy:%f\n",angle_left_xy);
+	//printf("left angle angle xy:%f\n",angle_left_xy);
 
 	float zDist_right_yz = rightShoulder.position.Z - rightElbow.position.Z;//actually left arm when facing the robot.
 	float yDist_right_yz = rightElbow.position.Y - rightShoulder.position.Y;
