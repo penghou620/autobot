@@ -20,7 +20,7 @@
 int serial_fd = 0;
 int n = 0;
 int estop = 0;
-
+ros::Publisher gui_pub;
 int SerialOpen(){
    serial_fd = open("/dev/ttyUSB0", O_RDWR | O_NOCTTY | O_NDELAY);
    if (serial_fd == -1)
@@ -33,6 +33,9 @@ int SerialOpen(){
 
 void estop_callback(const std_msgs::String::ConstPtr& msg){
 	if(!(strcmp(msg->data.c_str(), "set"))){
+		std_msgs::String estop_msg;
+		estop_msg.data = "Esto:Set";
+		gui_pub.publish(estop_msg);
 		estop = 1;
 		printf("Estop Set\n"); 
 		int loop_index = 0;
@@ -53,6 +56,10 @@ void estop_callback(const std_msgs::String::ConstPtr& msg){
 
 	}else{
 		estop = 0;
+		std_msgs::String estop_msg;
+		estop_msg.data = "Esto:Clear";
+		gui_pub.publish(estop_msg);
+
 		printf("Estop Clear\n"); 
 	}
 }
@@ -98,6 +105,7 @@ int main(int argc, char **argv){
 
   ros::NodeHandle nh;
 
+  gui_pub = nh.advertise<std_msgs::String>("gui",1);
   ros::Subscriber cmd_vel_sub = nh.subscribe("cmd_vel",1000,cmd_vel_callback);
   ros::Subscriber estop_sub = nh.subscribe("estop",1,estop_callback);
 
