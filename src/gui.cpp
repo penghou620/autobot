@@ -5,27 +5,7 @@
 #include <kdl/frames.hpp>
 #include <GL/glut.h>
 #include <string>
-#define MESSAGE   "Underworld live 17.03.04"
 
-// class gui_message{
-// private:
-//   ros::Subscriber gui_sub;
-// public:
-//   std::string gui_msg = "";
-//   gui_message(){
-
-//   }
-//   void init(){
-//     ros::NodeHandle nh;
-//     gui_sub = nh.subscribe("gui",1,gui_callback);
-//   }
-//   void gui_callback(const std_msgs::String::ConstPtr& msg){
-//     gui_msg = msg->data;
-//   }
-//   std::string getMsg(){
-//     ros::spinOnce();
-//   }
-// };
 ros::Subscriber gui_sub;
 std::string gui_msg = "Hello There";
 std::string gui_mode_msg = "Mode:Manual";
@@ -34,6 +14,8 @@ std::string gui_logo_msg_1 = "Logo:Georgia";
 std::string gui_logo_msg_2 = "Logo:Tech";
 std::string gui_estop_msg = "Esto:Set";
 char h = 0;
+
+
 void gui_callback(const std_msgs::String::ConstPtr& msg){
   std::string msg_type = msg->data.substr(0,4);
   printf("mode %s\n",msg_type.c_str());
@@ -62,16 +44,11 @@ void strokeString(GLfloat x, GLfloat y, const char *str){
 	
 	if(strcmp(str,"I Stop Tracking You") == 0){
 		glColor3f(1.0f,0.0f,0.0f);
-	}else{
-		//glColor3f(1.0f,0.0f,0.0f);
-	}
+	}	
 	glTranslatef(x,y,0);
   	int i = 0;
   	for(i = 0; i < (int)strlen(str); i++){
   	  glutStrokeCharacter(GLUT_STROKE_ROMAN, str[i]);
-  	 // if(i%10 == 0 && i > 0){
-  	 //   glTranslatef(-840,-150,0);
-  	 // }
   	}
   
 }
@@ -82,7 +59,6 @@ void glutIdle(){
 void glutDisplay(){
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
   glClearColor(0.1f,0.23f,0.367f,0);
-  //glClearColor(1.0f,1.0f,1.0f,0);
 
   glEnable(GL_DEPTH_TEST);
 
@@ -91,14 +67,8 @@ void glutDisplay(){
   glOrtho(-2.0, 2.0, -2.0, 2.0, -2.0, 500.0);
   glMatrixMode(GL_MODELVIEW);
   glLoadIdentity();
-  // gluLookAt(2, 2, 2, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
   glScalef(.001,.001,.001);
-  // glRotatef(0, 0, 1, 0);
-  // glRotatef(0, 0, 0, 1);
-  // glRotatef(0, 1, 0, 0);
-  // glTranslatef(-450, 200, 0);
   glLineWidth(2.0);
-  //glColor3f(0.7,0.7,0.7);
   glColor3f(1.0f,1.0f,1.0f);
   strokeString(-1800.0f,1500.0f,gui_mode_msg.c_str());
 
@@ -163,17 +133,11 @@ int main(int argc, char** argv){
    glutInitDisplayMode(GLUT_DEPTH | GLUT_SINGLE | GLUT_RGBA);
    glutInitWindowPosition( 0, 0 );
    glutInitWindowSize( 1280, 500);
-   //glClearColor(1.0, 1.0, 1.0, 1.0);
    glutInit( &argc, argv );
    glutCreateWindow("GLUT bitmap font example");
    glutDisplayFunc(glutDisplay);
    glutIdleFunc(glutIdle);
    glutMainLoop();
 
-   // ros::Rate loop_rate(60);
-   //  while(ros::ok()){
-   //    ros::spinOnce();
-   //    loop_rate.sleep();
-   //  }
    return 0;
 }

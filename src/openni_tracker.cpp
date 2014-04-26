@@ -1,4 +1,13 @@
-// openni_tracker.cpp
+/**
+ * @file openni_tracker.cpp
+ * @author Peng Hou
+ * @date April 10, 2014
+ * @brief This file use OPENNI framework to tracking the user skeleton.
+ * @details OPENNI framework provides the functionalities of detecting user, register user, skeleton tracking, remove user, etc.  When a user enter the camera scene, OPENNI will be able to pick up the person. Once the user calibrate with the OPENNI by posing a Psi pose, OPENNI would be able to register the user and keep track of the skeleton of this user. OPENNI is capable of tracking multiple person. 
+   When new user detected and OPEnNI is not tracking, send out greeting to gui, and request calibration.
+   If a user is lost and the lost user is the tracking user, set estop to stop the robot immediately and send message to gui
+ */
+
 
 #include <ros/ros.h>
 #include <ros/package.h>
@@ -14,7 +23,6 @@
 
 using std::string;
 
-
 xn::Context        g_Context;
 xn::DepthGenerator g_DepthGenerator;
 xn::UserGenerator  g_UserGenerator;
@@ -22,12 +30,11 @@ xn::UserGenerator  g_UserGenerator;
 XnBool g_bNeedPose   = FALSE;
 XnChar g_strPose[20] = "";
 std_msgs::String gui_msg;
-int tracking_user = 0;
-int lost_flag = 0;
-ros::Publisher head_pub;
-ros::Publisher gui_pub;
-ros::Publisher gesture_pub;
-ros::Publisher estop_pub;
+int tracking_user = 0;///< tracking_user indicates whether OPENNI is tracking
+ros::Publisher head_pub;///< ROS publisher publishes head coordinates to topic "head"
+ros::Publisher gui_pub;///< ROS publihser pubslishes gui message to topic "gui"
+ros::Publisher gesture_pub;///< ROS publisher publishes gesture result to topic "gesture"
+ros::Publisher estop_pub;///< ROS publisher publishes estop message to topic "estop"
 void XN_CALLBACK_TYPE User_NewUser(xn::UserGenerator& generator, XnUserID nId, void* pCookie) {
 	ROS_INFO("New User %d", nId);
 	if(tracking_user == 0){
@@ -96,7 +103,7 @@ void XN_CALLBACK_TYPE UserPose_PoseDetected(xn::PoseDetectionCapability& capabil
     g_UserGenerator.GetPoseDetectionCap().StopPoseDetection(nId);
     g_UserGenerator.GetSkeletonCap().RequestCalibration(nId, TRUE);
 }
-
+/*
 void publishTransform(XnUserID const& user, XnSkeletonJoint const& joint, string const& frame_id, string const& child_frame_id) {
     static tf::TransformBroadcaster br;
 
@@ -131,8 +138,10 @@ void publishTransform(XnUserID const& user, XnSkeletonJoint const& joint, string
     transform = change_frame * transform;
 
     br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), frame_id, child_frame_no));
-}
 
+}
+*/
+/*
 void publishTransforms(const std::string& frame_id) {
     XnUserID users[15];
     XnUInt16 users_count = 15;
@@ -165,6 +174,7 @@ void publishTransforms(const std::string& frame_id) {
         publishTransform(user, XN_SKEL_RIGHT_FOOT,     frame_id, "right_foot");
     }
 }
+*/
 
 #define CHECK_RC(nRetVal, what)										\
 	if (nRetVal != XN_STATUS_OK)									\
@@ -331,7 +341,7 @@ int main(int argc, char **argv) {
                 
 	while (ros::ok()) {
 		g_Context.WaitAndUpdateAll();
-		publishTransforms(frame_id);
+		//publishTransforms(frame_id);
 		XnUserID aUsers[15];
 		XnUInt16 nUsers = 15;
 		g_UserGenerator.GetUsers(aUsers, nUsers);
