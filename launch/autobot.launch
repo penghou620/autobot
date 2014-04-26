@@ -1,9 +1,6 @@
 <launch>
-	<include file="$(find openni_launch)/launch/openni.launch">
-	</include>
-
-	<include file="$(find skeleton_markers)/launch/markers.launch">
-	</include>
+	<include file="$(find openni_launch)/launch/openni.launch"/>
+	<include file="$(find skeleton_markers)/launch/markers.launch"/>
 	<node name="serial" pkg="autobot" type="serial"/>
 	<node name="openni_tracker" pkg="autobot" type="openni_tracker" output="screen"/>
 	<node name="motor_controller" pkg="autobot" type="motor_controller"/>
